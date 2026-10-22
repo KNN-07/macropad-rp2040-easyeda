@@ -2,6 +2,10 @@
 
 An editable EasyEDA Pro adaptation of the Adafruit MacroPad RP2040 Rev D: 12 MX-compatible hot-swap keys in a 3-column by 4-row layout, onboard RP2040, and USB-C.
 
+<img src="docs/images/prototype-3d.png" alt="Angled native EasyEDA Pro 3D render of the Rev C bare PCB, showing routing, mounting holes and silkscreen" width="600">
+
+Rev C prototype PCB in EasyEDA Pro's native 3D preview. This is a bare-board render; the project has no component models, so switches, keycaps and electronics are not shown. Solder-mask and pad colors are illustrative. Physical assembly and testing remain pending.
+
 **Rev C is released for first-article bare-board fabrication with the specified manufacturing and assembly constraints.** Native electrical DRC and schematic comparison pass; independent checks confirm all 76 nets, 338 physical pads and 171 drilled features. Nine intentional mechanical overlap findings remain documented individually in the [mechanical review](docs/mechanical-review.md). No physical board has been assembled or powered.
 
 Download the [fabrication ZIP](fabrication/MACRO12-RevC-Gerber.zip) and read the [fabrication settings](docs/fabrication-notes.md) before ordering. The 1.6 mm board, precision LED milling and OLED/mounting controls are part of the design.
