@@ -1,0 +1,45 @@
+{
+  "review_scope": "Native design electrical connectivity; not physical hardware or manufacturing CAM validation",
+  "connected_source_pads": 311,
+  "native_physical_pads": 338,
+  "source_to_native_net_mismatches": 0,
+  "unexpected_native_connected_nets": 0,
+  "unmapped_physical_pads": 0,
+  "intentionally_unconnected_physical_pads": 27,
+  "native_schematic_symbol_pins": 325,
+  "native_schematic_connected_pins": 311,
+  "native_schematic_wire_mismatches": 0,
+  "native_schematic_unexpected_connected_pins": 0,
+  "native_schematic_multinet_pin_contacts": 0,
+  "routed_track_count": 825,
+  "via_count": 92,
+  "component_count": 96,
+  "key_count": 12,
+  "min_track_width_mm": 0.2032,
+  "via_drill_and_copper_diameters_mm": [
+    [
+      0.3,
+      0.6
+    ],
+    [
+      0.5,
+      0.9064
+    ]
+  ],
+  "copper_check": "complete",
+  "connected_net_count": 76,
+  "disconnected_net_count": 0,
+  "native_archive_sha256": "fe8edbcd7436f06965ef6271b59c78525f9fc86215e9f7e83fc6b726cc4b44b5",
+  "revision": "C",
+  "status": "first-article bare-board fabrication release",
+  "date": "2026-10-22",
+  "native_drc_total": 9,
+  "accepted_mechanical_findings": 9,
+  "native_electrical_drc_findings": 0,
+  "native_netlist_comparison_differences": 0,
+  "cam_status": "pass",
+  "cam_drilled_features": 171,
+  "cam_closed_contours": 14,
+  "physical_hardware_tested": false,
+  "manufacturing_zip_sha256": "a24ab7b017afe1cfc20defd027d67552eb016be102e86be4c83f5652f89c0d5d"
+}

@@ -1,0 +1,610 @@
+{
+  "archive_sha256": "3326a4bcae18ed568e5ca56b4735d332cda8f85de1ed013fdec57a2f4a9ddbc0",
+  "files": [
+    {
+      "name": "Drill_NPTH_Through.DRL",
+      "bytes": 1325,
+      "sha256": "6155ee0f5bb63ac56ee9d8cf298b15cb8eb8ae757c3d04ab25f6f3cc19d93989"
+    },
+    {
+      "name": "Drill_PTH_Through.DRL",
+      "bytes": 2205,
+      "sha256": "b4c4e6bc53ab37e041f34250dbec5e786d69bc37a6d47af202e03e801aeb9fee"
+    },
+    {
+      "name": "Drill_PTH_Through_Via.DRL",
+      "bytes": 1677,
+      "sha256": "facf098eb10bdaf755cff1cda4d3eb1364188b20b87c8eeaed2b24b9119434c4"
+    },
+    {
+      "name": "FlyingProbeTesting.json",
+      "bytes": 84752,
+      "sha256": "d06133f021e72273a752e18f79abb2fefaec09b3da04291258910101c99004ae"
+    },
+    {
+      "name": "Gerber_BoardOutlineLayer.GKO",
+      "bytes": 3982,
+      "sha256": "737e593208e803ddbbfaf8fb7cc724eb0987f4af9275a466a8df54c50a960ad2"
+    },
+    {
+      "name": "Gerber_BottomLayer.GBL",
+      "bytes": 129376,
+      "sha256": "7d79e542833e94bdd38e2e7109d205a574302927474a339bb8d763f14ed1a359"
+    },
+    {
+      "name": "Gerber_BottomSilkscreenLayer.GBO",
+      "bytes": 65029,
+      "sha256": "94ff7ccc81c25579188006724e18e51acb1e4316cdeb07ccf87fef67a10ff387"
+    },
+    {
+      "name": "Gerber_BottomSolderMaskLayer.GBS",
+      "bytes": 1630,
+      "sha256": "8ebef1e019c20aa98ad021376161e1c6e37ff4922b91803c95e12383450d5444"
+    },
+    {
+      "name": "Gerber_CustomLayer10.GCL",
+      "bytes": 9331,
+      "sha256": "fc1f427bea8145c15ac2d15d7f3942ef64f41090acbddcdc3d9764b8dd772cf2"
+    },
+    {
+      "name": "Gerber_CustomLayer12.GCL",
+      "bytes": 3427,
+      "sha256": "368db8aad131054e97af29bd2164d5ed3b212766e2031eeed3cbc601b2dc6d22"
+    },
+    {
+      "name": "Gerber_CustomLayer13.GCL",
+      "bytes": 2756,
+      "sha256": "ca6280d61bb1293d64b36c102e11290d1483069d4f0bde249e063f57e38789ca"
+    },
+    {
+      "name": "Gerber_CustomLayer6.GCL",
+      "bytes": 5753,
+      "sha256": "28a5534a278fe9592cc71bb41ad736785c5b286976dce30822744c0916127d25"
+    },
+    {
+      "name": "Gerber_DrillDrawingLayer.GDD",
+      "bytes": 223769,
+      "sha256": "5cdfd388e17bb0625743fdc9a10303400de021fc2b7d74e2f78db926f920fab3"
+    },
+    {
+      "name": "Gerber_TopLayer.GTL",
+      "bytes": 250743,
+      "sha256": "f12f12304115eb18dca40fdf9670829e3776b68f8a2909b176554370af9171a1"
+    },
+    {
+      "name": "Gerber_TopPasteMaskLayer.GTP",
+      "bytes": 13518,
+      "sha256": "98ddfc31addea8512ab26912929ea4c86a247244ed53289e5375f3e6813d224e"
+    },
+    {
+      "name": "Gerber_TopSilkscreenLayer.GTO",
+      "bytes": 728198,
+      "sha256": "6486511190d027413e0b5391660e55c3074d3196465e33ffc6b1e05dfe98caa0"
+    },
+    {
+      "name": "Gerber_TopSolderMaskLayer.GTS",
+      "bytes": 12558,
+      "sha256": "4b252cd0b1170850c50eccc0b86dcda0288d3bf8933d6b4fe3409c593a49b3cf"
+    },
+    {
+      "name": "How-to-order-PCB.txt",
+      "bytes": 96,
+      "sha256": "047a8199f8f99f6493edae9d574d11c2e3d28e43ca20abc61c394e829668af28"
+    }
+  ],
+  "layers": {
+    "top copper": {
+      "file": "Gerber_TopLayer.GTL",
+      "primitives": {
+        "Region": 25,
+        "Arc": 914,
+        "Line": 1704,
+        "Flash": 430
+      }
+    },
+    "bottom copper": {
+      "file": "Gerber_BottomLayer.GBL",
+      "primitives": {
+        "Region": 4,
+        "Arc": 333,
+        "Line": 328,
+        "Flash": 107
+      }
+    },
+    "top silk": {
+      "file": "Gerber_TopSilkscreenLayer.GTO",
+      "primitives": {
+        "Line": 1158,
+        "Region": 381,
+        "Arc": 160
+      }
+    },
+    "bottom silk": {
+      "file": "Gerber_BottomSilkscreenLayer.GBO",
+      "primitives": {
+        "Region": 5,
+        "Line": 865,
+        "Arc": 80
+      }
+    },
+    "top mask": {
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "primitives": {
+        "Arc": 20,
+        "Flash": 338
+      }
+    },
+    "bottom mask": {
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "primitives": {
+        "Flash": 15
+      }
+    },
+    "top paste": {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "primitives": {
+        "Region": 16,
+        "Arc": 16,
+        "Flash": 323
+      }
+    },
+    "mechanical outline": {
+      "file": "Gerber_BoardOutlineLayer.GKO",
+      "primitives": {
+        "Line": 56,
+        "Arc": 4
+      }
+    }
+  },
+  "drills": {
+    "pth_total": 107,
+    "npth_total": 64,
+    "plated_slots": [
+      {
+        "plated": true,
+        "type": "slot",
+        "center": [
+          34.165,
+          102.68299999999999
+        ],
+        "diameter": 0.6,
+        "length": 1.3999999999999972,
+        "ends": [
+          [
+            34.165,
+            102.283
+          ],
+          [
+            34.165,
+            103.083
+          ]
+        ]
+      },
+      {
+        "plated": true,
+        "type": "slot",
+        "center": [
+          25.525,
+          102.68299999999999
+        ],
+        "diameter": 0.6,
+        "length": 1.3999999999999972,
+        "ends": [
+          [
+            25.525,
+            102.283
+          ],
+          [
+            25.525,
+            103.083
+          ]
+        ]
+      },
+      {
+        "plated": true,
+        "type": "slot",
+        "center": [
+          25.525,
+          98.503
+        ],
+        "diameter": 0.6,
+        "length": 1.6999999999999944,
+        "ends": [
+          [
+            25.525,
+            97.953
+          ],
+          [
+            25.525,
+            99.053
+          ]
+        ]
+      },
+      {
+        "plated": true,
+        "type": "slot",
+        "center": [
+          34.165,
+          98.503
+        ],
+        "diameter": 0.6,
+        "length": 1.6999999999999944,
+        "ends": [
+          [
+            34.165,
+            97.953
+          ],
+          [
+            34.165,
+            99.053
+          ]
+        ]
+      },
+      {
+        "plated": true,
+        "type": "slot",
+        "center": [
+          16.096905,
+          85.503095
+        ],
+        "diameter": 2.0,
+        "length": 3.9999949620436546,
+        "ends": [
+          [
+            15.3898,
+            84.79599
+          ],
+          [
+            16.80401,
+            86.2102
+          ]
+        ]
+      },
+      {
+        "plated": true,
+        "type": "slot",
+        "center": [
+          6.763095,
+          94.836905
+        ],
+        "diameter": 2.0,
+        "length": 3.999994962043653,
+        "ends": [
+          [
+            6.05599,
+            94.1298
+          ],
+          [
+            7.4702,
+            95.54401
+          ]
+        ]
+      }
+    ],
+    "encoder_slot_center_spacing_mm": 13.200000690613617,
+    "separate_via_file_count": 92,
+    "separate_via_file_redundant": true,
+    "missing_native_drills": [],
+    "unexpected_CAM_drills": []
+  },
+  "outline_contours": [
+    {
+      "closed": true,
+      "width_mm": 59.69,
+      "height_mm": 104.14,
+      "center_mm": [
+        29.845,
+        52.07
+      ],
+      "bounds_mm": [
+        0.0,
+        0.0,
+        59.69,
+        104.14
+      ],
+      "segments": 8,
+      "arcs": 4
+    },
+    {
+      "closed": true,
+      "width_mm": 12.0,
+      "height_mm": 4.0,
+      "center_mm": [
+        41.656,
+        77.9085
+      ],
+      "bounds_mm": [
+        35.656,
+        75.9085,
+        47.656,
+        79.9085
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        48.895,
+        72.898
+      ],
+      "bounds_mm": [
+        47.145,
+        70.998,
+        50.645,
+        74.798
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        29.845,
+        72.898
+      ],
+      "bounds_mm": [
+        28.095,
+        70.998,
+        31.595,
+        74.798
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        10.795,
+        72.898
+      ],
+      "bounds_mm": [
+        9.045,
+        70.998,
+        12.545,
+        74.798
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        48.895,
+        53.975
+      ],
+      "bounds_mm": [
+        47.145,
+        52.075,
+        50.645,
+        55.875
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        29.845,
+        53.848
+      ],
+      "bounds_mm": [
+        28.095,
+        51.948,
+        31.595,
+        55.748
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        10.795,
+        53.848
+      ],
+      "bounds_mm": [
+        9.045,
+        51.948,
+        12.545,
+        55.748
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        48.895,
+        34.798
+      ],
+      "bounds_mm": [
+        47.145,
+        32.898,
+        50.645,
+        36.698
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        29.845,
+        34.671
+      ],
+      "bounds_mm": [
+        28.095,
+        32.771,
+        31.595,
+        36.571
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        10.795,
+        34.798
+      ],
+      "bounds_mm": [
+        9.045,
+        32.898,
+        12.545,
+        36.698
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        48.895,
+        15.748
+      ],
+      "bounds_mm": [
+        47.145,
+        13.848,
+        50.645,
+        17.648
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        29.845,
+        15.875
+      ],
+      "bounds_mm": [
+        28.095,
+        13.975,
+        31.595,
+        17.775
+      ],
+      "segments": 4,
+      "arcs": 0
+    },
+    {
+      "closed": true,
+      "width_mm": 3.5,
+      "height_mm": 3.8,
+      "center_mm": [
+        10.795,
+        15.621
+      ],
+      "bounds_mm": [
+        9.045,
+        13.721,
+        12.545,
+        17.521
+      ],
+      "segments": 4,
+      "arcs": 0
+    }
+  ],
+  "native_pad_copper_or_mask_missing": [],
+  "parser_messages": [
+    "CAM\\Drill_PTH_Through.DRL:23 \"G90\": G90 header statement found after end of header",
+    "CAM\\Drill_NPTH_Through.DRL:19 \"G90\": G90 header statement found after end of header",
+    "CAM\\Drill_PTH_Through_Via.DRL:15 \"G90\": G90 header statement found after end of header"
+  ],
+  "native_comparison_scope": "Coordinates and plating/diameter of every drilled hole or slot; pad copper/mask center presence; closed outline contours. Does not replace fabrication process review or hardware test.",
+  "native_archive_sha256": "fe8edbcd7436f06965ef6271b59c78525f9fc86215e9f7e83fc6b726cc4b44b5",
+  "review_result": "PASS: manufacturing subset matches the final native design for reviewed CAM geometry",
+  "manufacturing_subset": [
+    {
+      "name": "Gerber_TopLayer.GTL",
+      "sha256": "f12f12304115eb18dca40fdf9670829e3776b68f8a2909b176554370af9171a1",
+      "bytes": 250743,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Gerber_BottomLayer.GBL",
+      "sha256": "7d79e542833e94bdd38e2e7109d205a574302927474a339bb8d763f14ed1a359",
+      "bytes": 129376,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Gerber_TopSilkscreenLayer.GTO",
+      "sha256": "6486511190d027413e0b5391660e55c3074d3196465e33ffc6b1e05dfe98caa0",
+      "bytes": 728198,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Gerber_BottomSilkscreenLayer.GBO",
+      "sha256": "94ff7ccc81c25579188006724e18e51acb1e4316cdeb07ccf87fef67a10ff387",
+      "bytes": 65029,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Gerber_TopSolderMaskLayer.GTS",
+      "sha256": "4b252cd0b1170850c50eccc0b86dcda0288d3bf8933d6b4fe3409c593a49b3cf",
+      "bytes": 12558,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Gerber_BottomSolderMaskLayer.GBS",
+      "sha256": "8ebef1e019c20aa98ad021376161e1c6e37ff4922b91803c95e12383450d5444",
+      "bytes": 1630,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Gerber_TopPasteMaskLayer.GTP",
+      "sha256": "98ddfc31addea8512ab26912929ea4c86a247244ed53289e5375f3e6813d224e",
+      "bytes": 13518,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Gerber_BoardOutlineLayer.GKO",
+      "sha256": "737e593208e803ddbbfaf8fb7cc724eb0987f4af9275a466a8df54c50a960ad2",
+      "bytes": 3982,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Drill_PTH_Through.DRL",
+      "sha256": "b4c4e6bc53ab37e041f34250dbec5e786d69bc37a6d47af202e03e801aeb9fee",
+      "bytes": 2205,
+      "identical_to_raw_export": true
+    },
+    {
+      "name": "Drill_NPTH_Through.DRL",
+      "sha256": "6155ee0f5bb63ac56ee9d8cf298b15cb8eb8ae757c3d04ab25f6f3cc19d93989",
+      "bytes": 1325,
+      "identical_to_raw_export": true
+    }
+  ],
+  "manufacturing_subset_all_files_identical_to_raw_export": true,
+  "visual_review": {
+    "top_preview_inspected": true,
+    "bottom_preview_inspected": true,
+    "key_socket_refs_inside_outline": true,
+    "revision_mark_present": "MACRO12 / REV C",
+    "dense_value_labels_hidden": true,
+    "pad_mask_alignment": "No missing native pad copper/mask centers; visual alignment inspected"
+  }
+}

@@ -1,0 +1,10 @@
+# Local tools and generated working data
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log
+__pycache__/
+.env
+.env.*
+work/

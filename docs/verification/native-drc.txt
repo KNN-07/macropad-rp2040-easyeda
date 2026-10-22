@@ -1,0 +1,15 @@
+EasyEDA Pro V3.2.209 - MACRO12 Rev C - 2026-10-22
+Final saved design after copper rebuilding and silkscreen polish.
+All findings: 9; Clearance Error: 9; Device to TH Pad: 9.
+Rule otherClearance; layer Bottom; each reported distance 0 mil, rule >=10 mil.
+U$1 / TP2_P$1
+U$6 / TP2_P$1
+U$3 / TP1_P$1
+U$4 / TP1_P$1
+X2 / X1_M2
+X2 / X1_M4
+X2 / X1_M1
+X2 / X1_M3
+X2 / TP4_P$1
+No additional finding categories. See mechanical-review.md for dispositions.
+Native schematic-versus-PCB comparison with Net+Component enabled: No Data (0 differences).

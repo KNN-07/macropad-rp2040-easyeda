@@ -1,0 +1,94 @@
+Reference,Value,Package,Library,CADSide,SelectedManufacturer,SelectedMPN,SupplierReference,AssemblyNote
+U$1,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$2,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$3,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$4,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$5,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$6,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+C6,10uF,0805-NO,microbuilder,Top,,,,
+C8,10uF,0805-NO,microbuilder,Top,,,,
+L,RED,CHIPLED_0603_NOOUTLINE,microbuilder,Top,,,,
+U2,RT9080/AP2112K-3.3,SOT23-5,adafruit_power,Top,,,,
+IC1,74HCT1G125DBV,SOT23-5,74xx-little-us,Top,,,,
+U1,W25Q64,USON8_4X4,microbuilder,Top,,,,
+R2,10K,0603-NO,microbuilder,Top,,,,
+C2,1uF,0603-NO,microbuilder,Top,,,,
+C10,0.1uF,0603-NO,microbuilder,Top,,,,
+IC3,RP2040_QFN56,QFN56_7MM_REDUCEDEPAD,adafruit_micro,Top,,,,
+Y1,12MHz/12pF,CRYSTAL_2.5X2,microbuilder,Top,,,,
+C3,0.1uF,0603-NO,microbuilder,Top,,,,
+C4,0.1uF,0603-NO,microbuilder,Top,,,,
+C11,1uF,0603-NO,microbuilder,Top,,,,
+C12,0.1uF,0603-NO,microbuilder,Top,,,,
+C13,0.1uF,0603-NO,microbuilder,Top,,,,
+C16,0.1uF,0603-NO,microbuilder,Top,,,,
+C19,22pF,0603-NO,microbuilder,Top,,,,
+C20,22pF,0603-NO,microbuilder,Top,,,,
+R6,1K,0603-NO,microbuilder,Top,,,,
+R11,1K,0603-NO,microbuilder,Top,,,,
+R3,22,0603-NO,microbuilder,Top,,,,
+R4,22,0603-NO,microbuilder,Top,,,,
+C1,1uF,0603-NO,microbuilder,Top,,,,
+C5,0.1uF,0603-NO,microbuilder,Top,,,,
+X1,TYPE-C-31-M-12,HRO_TYPE_C_31_M_12,adafruit_electromech,Top,HRO,TYPE-C-31-M-12,LCSC C165948 (upstream metadata),Rev C corrected lands/slots; control solder projection under OLED
+U$12,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$13,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$40,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$41,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$42,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+U$43,SOCKET,KAILH_SOCKET,adafruit_electromech,Bottom,,,,"Combined footprint: switch/keycap bottom, hot-swap socket top; source reference only; verify selected socket part"
+SW1,PEC11R-4215F-S0024,PEC11R_4215F_S0024_13P2,adafruit_electromech,Bottom,Bourns,PEC11R-4215F-S0024,,Rev C only: 13.2 mm tab pitch; 4.0 x 2.0 mm plated slots
+LED1,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED2,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED3,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED4,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED5,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED6,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED7,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED8,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED9,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED10,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED11,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+LED12,WS2812B_SK6812E,NEO3535_REVERSE,microbuilder,Bottom,OPSCO,SK6812MINI-E,,Reverse mount; aperture 3.5 x 3.8 mm; verify assembly side and pin 1
+SW2,RA SW,SPST_TACTILE_RA,adafruit_electromech,Top,G-Switch,GT-TC054B-H035-L1,LCSC C778159 (upstream metadata),Rev C symmetric mounting lands; preserve reviewed signal lands and peg holes
+CONN1,STEMMA_I2C_QT,JST_SH4,adafruit_electromech,Top,,,,
+C7,10uF,0805-NO,microbuilder,Top,,,,
+C9,10uF,0805-NO,microbuilder,Top,,,,
+R12,680K,0603-NO,microbuilder,Top,,,,
+C21,0.1uF,0603-NO,microbuilder,Top,,,,
+D3,1N4148,SOD-323,microbuilder,Top,,,,
+TP1,SEWTAP_SMTNUTM3,SMT_NUT_3MM,adafruit_electromech,Top,Adafruit,4207 or drawing-equivalent M3 solderable nut,Adafruit 4207,Top-side shoulder; nose <=1.5 mm; bottom flush/recessed; see docs/assembly.md
+TP2,SEWTAP_SMTNUTM3,SMT_NUT_3MM,adafruit_electromech,Top,Adafruit,4207 or drawing-equivalent M3 solderable nut,Adafruit 4207,Top-side shoulder; nose <=1.5 mm; bottom flush/recessed; see docs/assembly.md
+TP3,SEWTAP_SMTNUTM3,SMT_NUT_3MM,adafruit_electromech,Top,Adafruit,4207 or drawing-equivalent M3 solderable nut,Adafruit 4207,Top-side shoulder; nose <=1.5 mm; bottom flush/recessed; see docs/assembly.md
+TP4,SEWTAP_SMTNUTM3,SMT_NUT_3MM,adafruit_electromech,Top,Adafruit,4207 or drawing-equivalent M3 solderable nut,Adafruit 4207,Top-side shoulder; nose <=1.5 mm; bottom flush/recessed; see docs/assembly.md
+X2,ZJY130-2864KSWLG22,ZJY130-2864KSWLG22,adafruit_display,Bottom,Zhongjingyuan,ZJY130-2864KSWLG22,,16-pin folding panel; matching flex connector/process required; >=0.5 mm insulating spacer
+C14,10uF,0805-NO,microbuilder,Top,,,,
+C15,1uF,0603-NO,microbuilder,Top,,,,
+C17,1uF,0603-NO,microbuilder,Top,,,,
+R14,5.1K Pack,RESPACK_4X0603,microbuilder,Top,,,,
+R1,5.1K Pack,RESPACK_4X0603,microbuilder,Top,,,,
+SP2,7.5mm SPK,BUZZER_SMT_7.5MM,microbuilder,Top,,,,
+C18,0.1uF,0603-NO,microbuilder,Top,,,,
+R5,47K,0603-NO,microbuilder,Top,,,,
+R10,10K,0603-NO,microbuilder,Top,,,,
+R7,10K,0603-NO,microbuilder,Top,,,,
+C22,10uF,0805-NO,microbuilder,Top,,,,
+C23,10uF,0805-NO,microbuilder,Top,,,,
+C24,10uF,0805-NO,microbuilder,Top,,,,
+C25,10uF,0805-NO,microbuilder,Top,,,,
+C26,0.1uF,0603-NO,microbuilder,Top,,,,
+C27,0.1uF,0603-NO,microbuilder,Top,,,,
+C28,0.1uF,0603-NO,microbuilder,Top,,,,
+C29,0.1uF,0603-NO,microbuilder,Top,,,,
+R8,1K,0603-NO,microbuilder,Top,,,,
+C30,10nF,0603-NO,microbuilder,Top,,,,
+R9,DNP,0603-NO,microbuilder,Top,,,,DNP in source; do not populate by default
+C31,0.1uF,0603-NO,microbuilder,Top,,,,
+TP5,,TESTPOINT_ROUND_1.5MM_NO,microbuilder,Top,,,,
+TP6,,TESTPOINT_ROUND_1.5MM_NO,microbuilder,Top,,,,
+R15,47K,0603-NO,microbuilder,Top,,,,
+C33,0.1uF,0603-NO,microbuilder,Top,,,,
+U3,PAM8302,MSOP8_0.65MM,microbuilder,Top,,,,
+PTC1,500mA,0805-NO,microbuilder,Top,,,,
+C32,10uF,0805-NO,microbuilder,Top,,,,
+C34,0.1uF,0603-NO,microbuilder,Top,,,,

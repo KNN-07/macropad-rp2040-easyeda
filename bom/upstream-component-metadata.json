@@ -1,0 +1,35 @@
+{
+  "C8": {
+    "REV": "D",
+    "DRAWN": "KTOWN",
+    "COMPANY": "ADAFRUIT INDUSTRIES"
+  },
+  "CONN1": {
+    "LCSC": "C2845363"
+  },
+  "IC1": {
+    "POPULARITY": "0",
+    "ROT": "270"
+  },
+  "IC3": {
+    "LCSC": "C2040"
+  },
+  "L": {
+    "ROT": "270"
+  },
+  "SP2": {
+    "ROT": "0"
+  },
+  "SW1": {
+    "FORCETHM": "1"
+  },
+  "SW2": {
+    "LCSC": "C778159"
+  },
+  "U2": {
+    "JLC_ROTATION": "0"
+  },
+  "X1": {
+    "LCSC": "C165948"
+  }
+}

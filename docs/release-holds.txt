@@ -1,0 +1,11 @@
+MACRO12 Rev C release status - 2026-10-22
+
+No open bare-board design/CAM release hold remains.
+Released for first-article fabrication with the specified tolerances.
+
+Nine native mechanical overlap findings remain explicitly documented and
+accepted only with the assembly controls. They are not silently suppressed.
+Read fabrication-notes.md and assembly.md before ordering or assembling.
+
+Not yet completed: physical prototype bring-up and production qualification.
+The reference BOM is not an assembly-approved purchasing/CPL package.

@@ -1,0 +1,5 @@
+# Preserve exact source/export bytes and published checksums.
+* -text
+*.epro binary
+*.jpg binary
+*.png binary

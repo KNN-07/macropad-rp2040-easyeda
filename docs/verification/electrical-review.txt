@@ -1,0 +1,70 @@
+Independent electrical verification - MACRO12 Rev C final polished export
+
+Result: PASS for native schematic/PCB net consistency and copper connectivity.
+This is a prototype design verification, not a powered hardware test.
+
+Native archive SHA-256:
+fe8edbcd7436f06965ef6271b59c78525f9fc86215e9f7e83fc6b726cc4b44b5
+
+Verified counts
+- 96 PCB components; 338 physical footprint pads.
+- 311 connected physical pads; 27 intentionally unconnected physical pads.
+- 325 schematic symbol pins: 311 connected and 14 intentionally unconnected.
+- 825 routed track segments; 92 vias; 76 connected nets.
+- Twelve independently wired hot-swap socket inputs on GPIO1 through GPIO12.
+
+Independent checks
+1. Expanded the original EAGLE schematic's device pin-to-pad mappings and
+   compared every connected pad against the final EasyEDA PCB in both directions.
+   Result: no changed, missing or unexpected connected net. The source reset net
+   !RESET is represented as ~RESET~ in EasyEDA.
+2. Transformed all native schematic symbol pins and intersected their connection
+   points with the exported named-wire geometry. Result: every connected pin
+   touches its expected net; no NC pin acquired a connection and no pin touches
+   different named nets.
+3. Built a separate copper geometry model from final native tracks, vias, pad
+   copper, plated through pads and rebuilt copper-pour records. Every one of the
+   76 connected nets has all its connected pads in one conductive group.
+   Analysis uses polygonal arc approximation; native DRC remains the precision
+   clearance check. Neither analysis is an electrical-compliance or hardware test.
+
+Critical circuit review
+- RP2040 supply inputs, VREG output/DVDD, exposed ground pad and TESTEN match the
+  upstream circuit. Regulator and local decoupling capacitors remain connected.
+- QSPI flash data 0-3, clock and chip select map to their corresponding MCU pins;
+  flash supply, ground and chip-select pull-up remain intact.
+- The 12 MHz crystal, two 22 pF load capacitors and 1 kohm XOUT series resistor remain.
+- USB-C D+/D- work in both connector orientations by net mapping. CC1 and CC2
+  each have independent 5.1 kohm pull-downs. USB VBUS feeds the board through the
+ 500 mA PTC and 3.3 V regulator.
+- RUN/reset pull-up and pushbutton, and encoder pushbutton/diode/1 kohm BOOT path
+  remain intact. The upstream design intentionally leaves SWD pins unused.
+- The twelve keys use independent GPIO inputs to ground; a matrix and matrix
+  diodes are not part of this design.
+
+Manufacturing geometry measurements
+- Minimum routed track width: 0.2032 mm.
+- Via drill/copper diameters: 0.3/0.6 mm and0.5/0.9064 mm.
+- Twelve LED apertures: 3.5 by 3.8 mm.
+- Encoder mounting slots: 4.0 by 2.0 mm at 13.2 mm center spacing.
+- USB shell slots: two 1.4 by 0.6 mm and two 1.7 by 0.6 mm.
+- USB/key-body/display footprint instance side labels are not a substitute for
+  assembly-side data. Bottom-facing bodies can contain bottom-layer local pads
+  which flip onto PCB top; all SMD copper pads in this design are on PCB top.
+
+Inherited design details
+- The RP2040 core net is named 1.2V in the upstream source; it is driven by the
+  RP2040 internal regulator, not a separate fixed 1.2V external regulator.
+- USB series resistors remain the upstream 22 ohm value. Raspberry Pi's design
+  guide recommends 27 ohm nominal. USB signal compliance has not been tested.
+
+Primary sources
+https://github.com/adafruit/Adafruit-MacroPad-RP2040-PCB
+Upstream commit: fdd7f2cb3bc2b3c7a9c0765780387647ea872141
+https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf
+
+Evidence
+summary.json
+native-schematic-pin-audit.json
+native-copper-connectivity.json
+audit.json
