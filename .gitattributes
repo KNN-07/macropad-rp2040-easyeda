@@ -5,3 +5,6 @@ firmware/** text eol=lf
 *.epro binary
 *.jpg binary
 *.png binary
+*.blend binary
+*.step binary
+*.gz binary

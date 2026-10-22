@@ -1,0 +1,5646 @@
+{
+  "units": "millimetres",
+  "native_source": {
+    "path": "hardware/easyeda/MACRO12-RevC.epro",
+    "sha256": "fe8edbcd7436f06965ef6271b59c78525f9fc86215e9f7e83fc6b726cc4b44b5",
+    "component_count": 96,
+    "holes_and_vias_count": 171
+  },
+  "coordinate_system": {
+    "native": "Source board XY: origin lower-left electronics/top face, Y toward USB end. Native layer1 electronics, layer2 user-facing.",
+    "user": "Origin lower-left as viewed at keycap side with USB end at top. X=59.69-nativeX; Y=nativeY. For Blender user face can be+Z. Place electronics on negative Z.",
+    "user_z_reference": "Set user-facing PCB surface=Z0; substrate from -1.6 to0; user controls positiveZ, electronics below-1.6.",
+    "native_local_transform": "For component local(x,y), negate localY if native layer2; rotate counterclockwise by native_rotation_deg; add native_xy. For user view then mirror globalX.",
+    "native_rotation_caveat": "native_local_x_axis differs from EAGLE local package frame for imported rotated parts. Do not apply native angle to upstream STEP without calibration."
+  },
+  "board": {
+    "width": 59.69,
+    "length": 104.14,
+    "thickness": 1.6,
+    "corner_radius": 2.54,
+    "native_bounds": [
+      0,
+      0,
+      59.69,
+      104.14
+    ],
+    "outline_segments_native": [
+      {
+        "x1": "0",
+        "y1": "101.6",
+        "x2": "0",
+        "y2": "2.54",
+        "width": "0",
+        "layer": "20"
+      },
+      {
+        "x1": "0",
+        "y1": "2.54",
+        "x2": "2.54",
+        "y2": "0",
+        "width": "0",
+        "layer": "20",
+        "curve": "90"
+      },
+      {
+        "x1": "2.54",
+        "y1": "0",
+        "x2": "57.15",
+        "y2": "0",
+        "width": "0",
+        "layer": "20"
+      },
+      {
+        "x1": "57.15",
+        "y1": "0",
+        "x2": "59.69",
+        "y2": "2.54",
+        "width": "0",
+        "layer": "20",
+        "curve": "90"
+      },
+      {
+        "x1": "59.69",
+        "y1": "2.54",
+        "x2": "59.69",
+        "y2": "101.6",
+        "width": "0",
+        "layer": "20"
+      },
+      {
+        "x1": "59.69",
+        "y1": "101.6",
+        "x2": "57.15",
+        "y2": "104.14",
+        "width": "0",
+        "layer": "20",
+        "curve": "90"
+      },
+      {
+        "x1": "57.15",
+        "y1": "104.14",
+        "x2": "2.54",
+        "y2": "104.14",
+        "width": "0",
+        "layer": "20"
+      },
+      {
+        "x1": "2.54",
+        "y1": "104.14",
+        "x2": "0",
+        "y2": "101.6",
+        "width": "0",
+        "layer": "20",
+        "curve": "90"
+      }
+    ],
+    "led_cutouts": [
+      {
+        "closed": true,
+        "width_mm": 12.0,
+        "height_mm": 4.0,
+        "bounds_mm": [
+          35.656,
+          75.9085,
+          47.656,
+          79.9085
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          41.656,
+          77.9085
+        ],
+        "user_center_mm": [
+          18.034,
+          77.9085
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          47.145,
+          70.998,
+          50.645,
+          74.798
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          48.895,
+          72.898
+        ],
+        "user_center_mm": [
+          10.795,
+          72.898
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          28.095,
+          70.998,
+          31.595,
+          74.798
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          29.845,
+          72.898
+        ],
+        "user_center_mm": [
+          29.845,
+          72.898
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          9.045,
+          70.998,
+          12.545,
+          74.798
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          10.795,
+          72.898
+        ],
+        "user_center_mm": [
+          48.895,
+          72.898
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          47.145,
+          52.075,
+          50.645,
+          55.875
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          48.895,
+          53.975
+        ],
+        "user_center_mm": [
+          10.795,
+          53.975
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          28.095,
+          51.948,
+          31.595,
+          55.748
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          29.845,
+          53.848
+        ],
+        "user_center_mm": [
+          29.845,
+          53.848
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          9.045,
+          51.948,
+          12.545,
+          55.748
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          10.795,
+          53.848
+        ],
+        "user_center_mm": [
+          48.895,
+          53.848
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          47.145,
+          32.898,
+          50.645,
+          36.698
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          48.895,
+          34.798
+        ],
+        "user_center_mm": [
+          10.795,
+          34.798
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          28.095,
+          32.771,
+          31.595,
+          36.571
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          29.845,
+          34.671
+        ],
+        "user_center_mm": [
+          29.845,
+          34.671
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          9.045,
+          32.898,
+          12.545,
+          36.698
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          10.795,
+          34.798
+        ],
+        "user_center_mm": [
+          48.895,
+          34.798
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          47.145,
+          13.848,
+          50.645,
+          17.648
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          48.895,
+          15.748
+        ],
+        "user_center_mm": [
+          10.795,
+          15.748
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          28.095,
+          13.975,
+          31.595,
+          17.775
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          29.845,
+          15.875
+        ],
+        "user_center_mm": [
+          29.845,
+          15.875
+        ]
+      },
+      {
+        "closed": true,
+        "width_mm": 3.5,
+        "height_mm": 3.8,
+        "bounds_mm": [
+          9.045,
+          13.721,
+          12.545,
+          17.521
+        ],
+        "segments": 4,
+        "arcs": 0,
+        "native_center_mm": [
+          10.795,
+          15.621
+        ],
+        "user_center_mm": [
+          48.895,
+          15.621
+        ]
+      }
+    ]
+  },
+  "texture_mapping": {
+    "image_dimensions_px": [
+      900,
+      1549
+    ],
+    "physical_image_size_mm": [
+      61.69,
+      106.14
+    ],
+    "physical_margin_mm": 1,
+    "bottom_png": "Already horizontally mirrored for user-facing view. Left pixel is userX=-1, top pixel is userY=105.14. For XY plane UV=(userX+1)/61.69,(userY+1)/106.14. Do not mirror bottom.png again.",
+    "top_png": "Top/electronics image is native coordinates. For face-up scene XY point use U=(59.69-userX+1)/61.69,V=(userY+1)/106.14. Flip normal/textureorientation to suit mesh.",
+    "image_y_direction": "PNG top to bottom corresponds decreasing native/userY."
+  },
+  "keys_top_to_bottom_left_to_right": [
+    {
+      "ref": "U$40",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        67.945
+      ],
+      "user_xy": [
+        10.795,
+        67.945
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 0,
+      "column": 0,
+      "visual_number": 1
+    },
+    {
+      "ref": "U$13",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        67.945
+      ],
+      "user_xy": [
+        29.845,
+        67.945
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 0,
+      "column": 1,
+      "visual_number": 2
+    },
+    {
+      "ref": "U$12",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        67.945
+      ],
+      "user_xy": [
+        48.895,
+        67.945
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 0,
+      "column": 2,
+      "visual_number": 3
+    },
+    {
+      "ref": "U$43",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        48.895
+      ],
+      "user_xy": [
+        10.795,
+        48.895
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 1,
+      "column": 0,
+      "visual_number": 4
+    },
+    {
+      "ref": "U$42",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        48.895
+      ],
+      "user_xy": [
+        29.845,
+        48.895
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 1,
+      "column": 1,
+      "visual_number": 5
+    },
+    {
+      "ref": "U$41",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        48.895
+      ],
+      "user_xy": [
+        48.895,
+        48.895
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 1,
+      "column": 2,
+      "visual_number": 6
+    },
+    {
+      "ref": "U$6",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        29.845
+      ],
+      "user_xy": [
+        10.795,
+        29.845
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 2,
+      "column": 0,
+      "visual_number": 7
+    },
+    {
+      "ref": "U$5",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        29.845
+      ],
+      "user_xy": [
+        29.845,
+        29.845
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 2,
+      "column": 1,
+      "visual_number": 8
+    },
+    {
+      "ref": "U$4",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        29.845
+      ],
+      "user_xy": [
+        48.895,
+        29.845
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 2,
+      "column": 2,
+      "visual_number": 9
+    },
+    {
+      "ref": "U$1",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        10.795
+      ],
+      "user_xy": [
+        10.795,
+        10.795
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 3,
+      "column": 0,
+      "visual_number": 10
+    },
+    {
+      "ref": "U$2",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        10.795
+      ],
+      "user_xy": [
+        29.845,
+        10.795
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 3,
+      "column": 1,
+      "visual_number": 11
+    },
+    {
+      "ref": "U$3",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        10.795
+      ],
+      "user_xy": [
+        48.895,
+        10.795
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180",
+      "row": 3,
+      "column": 2,
+      "visual_number": 12
+    }
+  ],
+  "oled": {
+    "ref": "X2",
+    "native_anchor": [
+      41.656,
+      98.9965
+    ],
+    "user_anchor": [
+      18.034,
+      98.9965
+    ],
+    "native_glass_bbox": [
+      24.406,
+      79.8585,
+      58.906,
+      102.8585
+    ],
+    "user_glass_bbox": [
+      0.784,
+      79.8585,
+      35.284,
+      102.8585
+    ],
+    "glass_center_user": [
+      18.034,
+      91.3585
+    ],
+    "glass_size": [
+      34.5,
+      23,
+      1.4
+    ],
+    "user_active_area_bbox": [
+      3.324,
+      86.0585,
+      32.744,
+      100.7585
+    ],
+    "active_area_size": [
+      29.42,
+      14.7
+    ],
+    "minimum_spacer_above_pcb": 0.5,
+    "connector_on": "electronics side",
+    "warning": "Folding 16-pin bare panel, not 4-pin breakout; PCB source has glass outline and opposite-side connector."
+  },
+  "encoder": {
+    "ref": "SW1",
+    "native_xy": [
+      11.43,
+      90.17
+    ],
+    "user_xy": [
+      48.26,
+      90.17
+    ],
+    "body_rotation_user_deg": 45,
+    "body_silk_size": [
+      12.5,
+      13.2
+    ],
+    "shaft_diameter": 6,
+    "sourced_part": "PEC11R-4215F-S0024",
+    "knob": "not specified by PCB BOM; cosmetic choice must be labeled"
+  },
+  "usb": {
+    "ref": "X1",
+    "native_xy": [
+      29.845,
+      100.203
+    ],
+    "user_xy": [
+      29.845,
+      100.203
+    ],
+    "sourced_part": "TYPE-C-31-M-12",
+    "side": "electronics/underside",
+    "mouth_direction_user": [
+      0,
+      1
+    ],
+    "body_xy_bounds_native": [
+      25.375,
+      97.933,
+      34.315,
+      105.283
+    ],
+    "warning": "Body bounds from original package silk/docs; sourced HRO connector geometry should supersede representative shell."
+  },
+  "mounting": {
+    "refs": [
+      "TP1",
+      "TP2",
+      "TP3",
+      "TP4"
+    ],
+    "native_xy": [
+      [
+        3.81,
+        19.05
+      ],
+      [
+        55.88,
+        19.05
+      ],
+      [
+        3.81,
+        100.33
+      ],
+      [
+        55.88,
+        100.33
+      ]
+    ],
+    "user_xy": [
+      [
+        55.88,
+        19.05
+      ],
+      [
+        3.81,
+        19.05
+      ],
+      [
+        55.88,
+        100.33
+      ],
+      [
+        3.81,
+        100.33
+      ]
+    ],
+    "hole_diameter": 4.25,
+    "nut_body_diameter": 5.56,
+    "nut_body_height": 3,
+    "nut_side": "electronics/underside",
+    "max_nose_height": 1.5,
+    "user_face_projections": "Nut noses, screw tips, solder must be flush/recessed at user-facing plane. Do not show screw heads on front over key zones.",
+    "backplate_thickness_nominal": 1.6,
+    "screw_length_nominal": 5
+  },
+  "components": [
+    {
+      "ref": "U$1",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        10.795
+      ],
+      "user_xy": [
+        10.795,
+        10.795
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$2",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        10.795
+      ],
+      "user_xy": [
+        29.845,
+        10.795
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$3",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        10.795
+      ],
+      "user_xy": [
+        48.895,
+        10.795
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$4",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        29.845
+      ],
+      "user_xy": [
+        48.895,
+        29.845
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$5",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        29.845
+      ],
+      "user_xy": [
+        29.845,
+        29.845
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$6",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        29.845
+      ],
+      "user_xy": [
+        10.795,
+        29.845
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "C6",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        46.7341,
+        85.564901
+      ],
+      "user_xy": [
+        12.9559,
+        85.564901
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C8",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        40.591499,
+        84.141
+      ],
+      "user_xy": [
+        19.098501,
+        84.141
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "L",
+      "value": "RED",
+      "footprint": "12f0858e15bfea1e",
+      "native_xy": [
+        22.987,
+        103.251
+      ],
+      "user_xy": [
+        36.703,
+        103.251
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "CHIPLED_0603_NOOUTLINE",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "U$34",
+      "value": null,
+      "footprint": "b563c3dcd9f74d3f",
+      "native_xy": [
+        50.927,
+        102.235
+      ],
+      "user_xy": [
+        8.763,
+        102.235
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "FIDUCIAL_1MM",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "U$35",
+      "value": null,
+      "footprint": "b563c3dcd9f74d3f",
+      "native_xy": [
+        3.3077,
+        3.095201
+      ],
+      "user_xy": [
+        56.3823,
+        3.095201
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "FIDUCIAL_1MM",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "U2",
+      "value": "RT9080/AP2112K-3.3",
+      "footprint": "a012000000000001",
+      "native_xy": [
+        43.561,
+        85.725
+      ],
+      "user_xy": [
+        16.129,
+        85.725
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "SOT23-5",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "IC1",
+      "value": "74HCT1G125DBV",
+      "footprint": "6314acc640672f0f",
+      "native_xy": [
+        54.483,
+        73.152
+      ],
+      "user_xy": [
+        5.207,
+        73.152
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "SOT23-5",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "U1",
+      "value": "W25Q64",
+      "footprint": "f2a982dd27b54b88",
+      "native_xy": [
+        26.9113,
+        92.71
+      ],
+      "user_xy": [
+        32.7787,
+        92.71
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "USON8_4X4",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "R2",
+      "value": "10K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        23.368,
+        95.504
+      ],
+      "user_xy": [
+        36.322,
+        95.504
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "C2",
+      "value": "1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        35.179,
+        91.186
+      ],
+      "user_xy": [
+        24.511,
+        91.186
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C10",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        24.384,
+        83.566
+      ],
+      "user_xy": [
+        35.306,
+        83.566
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "IC3",
+      "value": "RP2040_QFN56",
+      "footprint": "085fe5d02d5a2c39",
+      "native_xy": [
+        31.242,
+        85.852
+      ],
+      "user_xy": [
+        28.448,
+        85.852
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "QFN56_7MM_REDUCEDEPAD",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "Y1",
+      "value": "12MHz/12pF",
+      "footprint": "4e45572666a6a976",
+      "native_xy": [
+        27.559,
+        77.343
+      ],
+      "user_xy": [
+        32.131,
+        77.343
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "CRYSTAL_2.5X2",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "C3",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        33.02,
+        78.1685
+      ],
+      "user_xy": [
+        26.67,
+        78.1685
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C4",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        30.861,
+        92.71
+      ],
+      "user_xy": [
+        28.829,
+        92.71
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "C11",
+      "value": "1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        33.655,
+        92.583
+      ],
+      "user_xy": [
+        26.035,
+        92.583
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C12",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        38.862,
+        84.201
+      ],
+      "user_xy": [
+        20.828,
+        84.201
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "C13",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        36.703,
+        90.805
+      ],
+      "user_xy": [
+        22.987,
+        90.805
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C16",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        23.368,
+        97.028
+      ],
+      "user_xy": [
+        36.322,
+        97.028
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "C19",
+      "value": "22pF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        25.654,
+        75.311
+      ],
+      "user_xy": [
+        34.036,
+        75.311
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "C20",
+      "value": "22pF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        29.845,
+        77.216
+      ],
+      "user_xy": [
+        29.845,
+        77.216
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "R6",
+      "value": "1K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        29.21,
+        79.502
+      ],
+      "user_xy": [
+        30.48,
+        79.502
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "R11",
+      "value": "1K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        22.7838,
+        93.1799
+      ],
+      "user_xy": [
+        36.9062,
+        93.1799
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "R3",
+      "value": "22",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        29.718,
+        95.504
+      ],
+      "user_xy": [
+        29.972,
+        95.504
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "R4",
+      "value": "22",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        32.766,
+        95.504
+      ],
+      "user_xy": [
+        26.924,
+        95.504
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "C1",
+      "value": "1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        37.719,
+        88.519
+      ],
+      "user_xy": [
+        21.971,
+        88.519
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "C5",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        25.4,
+        89.281
+      ],
+      "user_xy": [
+        34.29,
+        89.281
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "X1",
+      "value": "TYPE-C-31-M-12",
+      "footprint": "03ad4029ad35c2fc",
+      "native_xy": [
+        29.845,
+        100.203
+      ],
+      "user_xy": [
+        29.845,
+        100.203
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "USB_C_CUSB31-CFM2AX-01-X",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "U$12",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        67.945
+      ],
+      "user_xy": [
+        48.895,
+        67.945
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$13",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        67.945
+      ],
+      "user_xy": [
+        29.845,
+        67.945
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$40",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        67.945
+      ],
+      "user_xy": [
+        10.795,
+        67.945
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$41",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        10.795,
+        48.895
+      ],
+      "user_xy": [
+        48.895,
+        48.895
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$42",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        29.845,
+        48.895
+      ],
+      "user_xy": [
+        29.845,
+        48.895
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "U$43",
+      "value": "SOCKET",
+      "footprint": "78389a3ae07fe96e",
+      "native_xy": [
+        48.895,
+        48.895
+      ],
+      "user_xy": [
+        10.795,
+        48.895
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "KAILH_SOCKET",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "SW1",
+      "value": "PEC11R-4215F-S0024",
+      "footprint": "ec0d4ee4cd68a5e5",
+      "native_xy": [
+        11.43,
+        90.17
+      ],
+      "user_xy": [
+        48.26,
+        90.17
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 135,
+      "user_local_x_axis_deg": 45,
+      "upstream_package": "PEC11_SW_FIXED",
+      "upstream_rotation": "MR45"
+    },
+    {
+      "ref": "LED1",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        48.895,
+        72.898
+      ],
+      "user_xy": [
+        10.795,
+        72.898
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED2",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        29.845,
+        72.898
+      ],
+      "user_xy": [
+        29.845,
+        72.898
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED3",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        10.795,
+        72.898
+      ],
+      "user_xy": [
+        48.895,
+        72.898
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED4",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        48.895,
+        53.975
+      ],
+      "user_xy": [
+        10.795,
+        53.975
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED5",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        29.845,
+        53.848
+      ],
+      "user_xy": [
+        29.845,
+        53.848
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED6",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        10.795,
+        53.848
+      ],
+      "user_xy": [
+        48.895,
+        53.848
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED7",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        48.895,
+        34.798
+      ],
+      "user_xy": [
+        10.795,
+        34.798
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED8",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        29.845,
+        34.671
+      ],
+      "user_xy": [
+        29.845,
+        34.671
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED9",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        10.795,
+        34.798
+      ],
+      "user_xy": [
+        48.895,
+        34.798
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED10",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        48.895,
+        15.748
+      ],
+      "user_xy": [
+        10.795,
+        15.748
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED11",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        29.845,
+        15.875
+      ],
+      "user_xy": [
+        29.845,
+        15.875
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "LED12",
+      "value": "WS2812B_SK6812E",
+      "footprint": "6099ffdf9718c1a2",
+      "native_xy": [
+        10.795,
+        15.621
+      ],
+      "user_xy": [
+        48.895,
+        15.621
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "NEO3535_REVERSE",
+      "upstream_rotation": "MR0"
+    },
+    {
+      "ref": "SW2",
+      "value": "RA SW",
+      "footprint": "8b616c3009a64c23",
+      "native_xy": [
+        57.785,
+        84.455
+      ],
+      "user_xy": [
+        1.905,
+        84.455
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "SPST_TACTILE_RA",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "CONN1",
+      "value": "STEMMA_I2C_QT",
+      "footprint": "2074802393db12a4",
+      "native_xy": [
+        56.642,
+        92.71
+      ],
+      "user_xy": [
+        3.048,
+        92.71
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "JST_SH4",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C7",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        49.403,
+        89.916
+      ],
+      "user_xy": [
+        10.287,
+        89.916
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C9",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        40.513,
+        102.362
+      ],
+      "user_xy": [
+        19.177,
+        102.362
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "R12",
+      "value": "680K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        38.608,
+        90.805
+      ],
+      "user_xy": [
+        21.082,
+        90.805
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C21",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        43.688,
+        89.916
+      ],
+      "user_xy": [
+        16.002,
+        89.916
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "D3",
+      "value": "1N4148",
+      "footprint": "faff174666bcac0b",
+      "native_xy": [
+        22.86,
+        89.535
+      ],
+      "user_xy": [
+        36.83,
+        89.535
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "SOD-323",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "TP1",
+      "value": null,
+      "footprint": "6d7e4da2a637ea4f",
+      "native_xy": [
+        3.81,
+        19.05
+      ],
+      "user_xy": [
+        55.88,
+        19.05
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "SMT_NUT_3MM",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "TP2",
+      "value": null,
+      "footprint": "6d7e4da2a637ea4f",
+      "native_xy": [
+        55.88,
+        19.05
+      ],
+      "user_xy": [
+        3.81,
+        19.05
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "SMT_NUT_3MM",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "TP3",
+      "value": null,
+      "footprint": "6d7e4da2a637ea4f",
+      "native_xy": [
+        3.81,
+        100.33
+      ],
+      "user_xy": [
+        55.88,
+        100.33
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "SMT_NUT_3MM",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "TP4",
+      "value": "SEWTAP_SMTNUTM3",
+      "footprint": "6d7e4da2a637ea4f",
+      "native_xy": [
+        55.88,
+        100.33
+      ],
+      "user_xy": [
+        3.81,
+        100.33
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "SMT_NUT_3MM",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "X2",
+      "value": "ZJY130-2864KSWLG22",
+      "footprint": "b1ab9d3e6c2a48e2",
+      "native_xy": [
+        41.656,
+        98.9965
+      ],
+      "user_xy": [
+        18.034,
+        98.9965
+      ],
+      "native_layer": 2,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "ZJY130-2864KSWLG22",
+      "upstream_rotation": "MR180"
+    },
+    {
+      "ref": "C14",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        36.703,
+        102.362
+      ],
+      "user_xy": [
+        22.987,
+        102.362
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "C15",
+      "value": "1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        45.847,
+        89.789
+      ],
+      "user_xy": [
+        13.843,
+        89.789
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C17",
+      "value": "1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        47.625,
+        89.789
+      ],
+      "user_xy": [
+        12.065,
+        89.789
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "R14",
+      "value": "5.1K Pack",
+      "footprint": "79b2da343200da80",
+      "native_xy": [
+        50.038,
+        94.615
+      ],
+      "user_xy": [
+        9.652,
+        94.615
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "RESPACK_4X0603",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "R1",
+      "value": "5.1K Pack",
+      "footprint": "79b2da343200da80",
+      "native_xy": [
+        23.114,
+        100.203
+      ],
+      "user_xy": [
+        36.576,
+        100.203
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "RESPACK_4X0603",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "SP2",
+      "value": "7.5mm SPK",
+      "footprint": "69d79e38eddfa7cd",
+      "native_xy": [
+        39.243,
+        53.848
+      ],
+      "user_xy": [
+        20.447,
+        53.848
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "BUZZER_SMT_7.5MM",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C18",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        38.1,
+        69.5325
+      ],
+      "user_xy": [
+        21.59,
+        69.5325
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "R5",
+      "value": "47K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        40.386,
+        68.834
+      ],
+      "user_xy": [
+        19.304,
+        68.834
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "R10",
+      "value": "10K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        24.7015,
+        77.724
+      ],
+      "user_xy": [
+        34.9885,
+        77.724
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "R7",
+      "value": "10K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        57.15,
+        74.3585
+      ],
+      "user_xy": [
+        2.54,
+        74.3585
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C22",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        23.368,
+        33.909
+      ],
+      "user_xy": [
+        36.322,
+        33.909
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "C23",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        23.368,
+        15.113
+      ],
+      "user_xy": [
+        36.322,
+        15.113
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "C24",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        43.561,
+        72.7075
+      ],
+      "user_xy": [
+        16.129,
+        72.7075
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "C25",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        23.241,
+        53.086
+      ],
+      "user_xy": [
+        36.449,
+        53.086
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "C26",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        23.368,
+        32.258
+      ],
+      "user_xy": [
+        36.322,
+        32.258
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "C27",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        23.368,
+        13.335
+      ],
+      "user_xy": [
+        36.322,
+        13.335
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "C28",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        23.241,
+        51.435
+      ],
+      "user_xy": [
+        36.449,
+        51.435
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "C29",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        43.4975,
+        71.0565
+      ],
+      "user_xy": [
+        16.1925,
+        71.0565
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "R8",
+      "value": "1K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        37.2745,
+        71.882
+      ],
+      "user_xy": [
+        22.4155,
+        71.882
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "C30",
+      "value": "10nF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        38.7985,
+        71.882
+      ],
+      "user_xy": [
+        20.8915,
+        71.882
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "R9",
+      "value": "DNP",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        40.3225,
+        71.882
+      ],
+      "user_xy": [
+        19.3675,
+        71.882
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "C31",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        31.369,
+        77.216
+      ],
+      "user_xy": [
+        28.321,
+        77.216
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "TP5",
+      "value": null,
+      "footprint": "f570d71ef444101b",
+      "native_xy": [
+        49.53,
+        80.01
+      ],
+      "user_xy": [
+        10.16,
+        80.01
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "TESTPOINT_ROUND_1.5MM_NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "TP6",
+      "value": null,
+      "footprint": "f570d71ef444101b",
+      "native_xy": [
+        20.828,
+        95.504
+      ],
+      "user_xy": [
+        38.862,
+        95.504
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "TESTPOINT_ROUND_1.5MM_NO",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "U$80",
+      "value": "FIDUCIAL_1MM",
+      "footprint": "b563c3dcd9f74d3f",
+      "native_xy": [
+        56.642,
+        13.716
+      ],
+      "user_xy": [
+        3.048,
+        13.716
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 0,
+      "user_local_x_axis_deg": 180,
+      "upstream_package": "FIDUCIAL_1MM",
+      "upstream_rotation": "R0"
+    },
+    {
+      "ref": "R15",
+      "value": "47K",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        38.608,
+        66.421
+      ],
+      "user_xy": [
+        21.082,
+        66.421
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "C33",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        37.084,
+        66.421
+      ],
+      "user_xy": [
+        22.606,
+        66.421
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 270,
+      "user_local_x_axis_deg": 270,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R270"
+    },
+    {
+      "ref": "U3",
+      "value": "PAM8302",
+      "footprint": "a821920438bd2af4",
+      "native_xy": [
+        39.37,
+        60.96
+      ],
+      "user_xy": [
+        20.32,
+        60.96
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 180,
+      "user_local_x_axis_deg": 0,
+      "upstream_package": "MSOP8_0.65MM",
+      "upstream_rotation": "R180"
+    },
+    {
+      "ref": "PTC1",
+      "value": "500mA",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        48.768,
+        85.598
+      ],
+      "user_xy": [
+        10.922,
+        85.598
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C32",
+      "value": "10uF",
+      "footprint": "e45ce455d85c638d",
+      "native_xy": [
+        36.068,
+        59.69
+      ],
+      "user_xy": [
+        23.622,
+        59.69
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0805-NO",
+      "upstream_rotation": "R90"
+    },
+    {
+      "ref": "C34",
+      "value": "0.1uF",
+      "footprint": "1c144bccb6639a88",
+      "native_xy": [
+        42.037,
+        59.817
+      ],
+      "user_xy": [
+        17.653,
+        59.817
+      ],
+      "native_layer": 1,
+      "native_rotation_deg": 90,
+      "user_local_x_axis_deg": 90,
+      "upstream_package": "0603-NO",
+      "upstream_rotation": "R90"
+    }
+  ],
+  "upstream_package_drawing_bounds": {
+    "KAILH_SOCKET": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "21": [
+          -9.525,
+          -9.525,
+          9.525,
+          9.525
+        ],
+        "22": [
+          -6.09,
+          0.855,
+          4.825,
+          6.76
+        ],
+        "52": [
+          -6.09,
+          0.855,
+          4.825,
+          6.76
+        ],
+        "51": [
+          -7.0,
+          -7.0,
+          7.0,
+          7.0
+        ]
+      }
+    },
+    "0805-NO": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -1.0922,
+          -0.7239,
+          1.1057,
+          0.7262
+        ],
+        "21": [
+          0.0,
+          -0.508,
+          0.0,
+          0.508
+        ]
+      }
+    },
+    "CHIPLED_0603_NOOUTLINE": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -0.45,
+          -0.85,
+          0.45,
+          0.85
+        ],
+        "21": [
+          -0.381,
+          0.1397,
+          0.381,
+          0.2667
+        ]
+      }
+    },
+    "FIDUCIAL_1MM": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "29": [
+          -0.75,
+          -0.75,
+          0.75,
+          0.75
+        ],
+        "41": [
+          -0.75,
+          -0.75,
+          0.75,
+          0.75
+        ],
+        "39": [
+          -0.75,
+          -0.75,
+          0.75,
+          0.75
+        ]
+      }
+    },
+    "SOT23-5": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -1.4224,
+          -1.5,
+          1.4224,
+          1.5
+        ],
+        "21": [
+          -1.65,
+          -0.8,
+          1.65,
+          1.05
+        ]
+      }
+    },
+    "USON8_4X4": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "21": [
+          -2.2,
+          -2.0,
+          2.0,
+          2.2
+        ],
+        "31": [
+          -0.8,
+          -1.3,
+          0.8,
+          1.3
+        ]
+      }
+    },
+    "0603-NO": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "39": [
+          -1.473,
+          -0.729,
+          1.473,
+          0.729
+        ],
+        "51": [
+          -0.8382,
+          -0.4699,
+          0.8303,
+          0.4801
+        ],
+        "35": [
+          -0.1999,
+          -0.3,
+          0.1999,
+          0.3
+        ],
+        "21": [
+          0.0,
+          -0.4,
+          0.0,
+          0.4
+        ]
+      }
+    },
+    "QFN56_7MM_REDUCEDEPAD": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -3.960975,
+          -3.5,
+          3.5,
+          3.960975
+        ],
+        "21": [
+          -3.835409,
+          -3.5,
+          3.5,
+          3.835409
+        ],
+        "31": [
+          -1.3,
+          -1.3,
+          1.3,
+          1.3
+        ]
+      }
+    },
+    "CRYSTAL_2.5X2": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -1.25,
+          -1.0,
+          1.25,
+          1.0
+        ],
+        "21": [
+          -1.5,
+          -1.25,
+          1.5,
+          1.25
+        ]
+      }
+    },
+    "USB_C_CUSB31-CFM2AX-01-X": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "46": [
+          -4.62,
+          -3.08,
+          4.62,
+          2.55
+        ],
+        "51": [
+          -4.47,
+          -5.08,
+          4.47,
+          2.27
+        ],
+        "21": [
+          -4.47,
+          -5.08,
+          4.47,
+          0.27
+        ],
+        "31": [
+          -3.3782,
+          1.7018,
+          3.3782,
+          2.8448
+        ]
+      }
+    },
+    "PEC11_SW_FIXED": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "21": [
+          -6.6,
+          -6.6,
+          6.6,
+          6.6
+        ],
+        "46": [
+          -6.65,
+          -1.3,
+          6.65,
+          1.3
+        ]
+      }
+    },
+    "NEO3535_REVERSE": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "21": [
+          -1.6,
+          -1.4,
+          1.6,
+          2.1
+        ],
+        "46": [
+          -1.927,
+          -1.727,
+          1.927,
+          1.727
+        ],
+        "41": [
+          -1.9,
+          -1.7,
+          1.9,
+          1.7
+        ],
+        "42": [
+          -2.027,
+          -1.827,
+          2.027,
+          1.827
+        ],
+        "52": [
+          -1.6,
+          -1.4,
+          1.6,
+          2.1
+        ],
+        "22": [
+          2.286,
+          -1.651,
+          2.54,
+          -1.397
+        ]
+      }
+    },
+    "SPST_TACTILE_RA": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "21": [
+          -3.5,
+          -1.0,
+          3.5,
+          2.4
+        ]
+      }
+    },
+    "JST_SH4": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -3.0,
+          -2.594,
+          3.1,
+          1.656
+        ],
+        "21": [
+          -3.0,
+          -2.594,
+          3.1,
+          1.706
+        ]
+      }
+    },
+    "SOD-323": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "21": [
+          -1.0,
+          -0.7,
+          1.0,
+          0.7
+        ],
+        "51": [
+          -1.0,
+          -0.7,
+          1.0,
+          0.7
+        ]
+      }
+    },
+    "SMT_NUT_3MM": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "31": [
+          -2.6,
+          -2.6,
+          2.6,
+          2.6
+        ],
+        "1": [
+          -2.6162,
+          -2.6162,
+          2.6162,
+          2.6162
+        ],
+        "29": [
+          -2.6162,
+          -2.6162,
+          2.6162,
+          2.6162
+        ]
+      }
+    },
+    "ZJY130-2864KSWLG22": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "21": [
+          -17.25,
+          -3.862,
+          17.25,
+          19.138
+        ],
+        "51": [
+          -14.7,
+          -1.762,
+          14.7,
+          12.938
+        ],
+        "46": [
+          -6.0,
+          19.088,
+          6.0,
+          23.088
+        ],
+        "52": [
+          -6.0,
+          -0.534,
+          6.1,
+          3.866
+        ],
+        "22": [
+          -6.0,
+          -0.534,
+          6.1,
+          0.666
+        ]
+      }
+    },
+    "RESPACK_4X0603": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -1.6,
+          -0.8,
+          1.6,
+          0.8
+        ],
+        "39": [
+          -1.9,
+          -1.4,
+          1.9,
+          1.4
+        ],
+        "21": [
+          -1.9,
+          -1.4,
+          1.9,
+          1.4
+        ]
+      }
+    },
+    "BUZZER_SMT_7.5MM": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -3.75,
+          -3.75,
+          3.75,
+          3.75
+        ],
+        "21": [
+          -3.75,
+          -3.75,
+          3.75,
+          3.75
+        ]
+      }
+    },
+    "TESTPOINT_ROUND_1.5MM_NO": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {}
+    },
+    "MSOP8_0.65MM": {
+      "description": "Upstream EAGLE drawing primitive bounds excluding line widths, text and pads. Layer21=tPlace,22=bPlace,51=tDocu,52=bDocu; silk is not necessarily a body envelope. Curved segment extrema are approximated by endpoints. Coordinates in original EAGLE local package frame.",
+      "layers": {
+        "51": [
+          -1.5,
+          -1.5,
+          1.5,
+          1.5
+        ],
+        "21": [
+          -1.5,
+          -1.5,
+          1.5,
+          1.5
+        ]
+      }
+    }
+  },
+  "drills": [
+    {
+      "ref": "U$1",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        48.895,
+        10.795
+      ],
+      "user_xy": [
+        10.795,
+        10.795
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$1",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        51.435,
+        5.715
+      ],
+      "user_xy": [
+        8.255,
+        5.715
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$1",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        45.085,
+        8.255
+      ],
+      "user_xy": [
+        14.605,
+        8.255
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$1",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        53.975,
+        10.795
+      ],
+      "user_xy": [
+        5.715,
+        10.795
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$1",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        43.815,
+        10.795
+      ],
+      "user_xy": [
+        15.875,
+        10.795
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$2",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        29.845,
+        10.795
+      ],
+      "user_xy": [
+        29.845,
+        10.795
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$2",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        32.385,
+        5.715
+      ],
+      "user_xy": [
+        27.305,
+        5.715
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$2",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        26.035,
+        8.255
+      ],
+      "user_xy": [
+        33.655,
+        8.255
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$2",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        34.925,
+        10.795
+      ],
+      "user_xy": [
+        24.765,
+        10.795
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$2",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        24.765,
+        10.795
+      ],
+      "user_xy": [
+        34.925,
+        10.795
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$3",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        10.795,
+        10.795
+      ],
+      "user_xy": [
+        48.895,
+        10.795
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$3",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        13.335,
+        5.715
+      ],
+      "user_xy": [
+        46.355,
+        5.715
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$3",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        6.985,
+        8.255
+      ],
+      "user_xy": [
+        52.705,
+        8.255
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$3",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        15.875,
+        10.795
+      ],
+      "user_xy": [
+        43.815,
+        10.795
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$3",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        5.715,
+        10.795
+      ],
+      "user_xy": [
+        53.975,
+        10.795
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$4",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        10.795,
+        29.845
+      ],
+      "user_xy": [
+        48.895,
+        29.845
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$4",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        13.335,
+        24.765
+      ],
+      "user_xy": [
+        46.355,
+        24.765
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$4",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        6.985,
+        27.305
+      ],
+      "user_xy": [
+        52.705,
+        27.305
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$4",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        15.875,
+        29.845
+      ],
+      "user_xy": [
+        43.815,
+        29.845
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$4",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        5.715,
+        29.845
+      ],
+      "user_xy": [
+        53.975,
+        29.845
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$5",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        29.845,
+        29.845
+      ],
+      "user_xy": [
+        29.845,
+        29.845
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$5",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        32.385,
+        24.765
+      ],
+      "user_xy": [
+        27.305,
+        24.765
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$5",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        26.035,
+        27.305
+      ],
+      "user_xy": [
+        33.655,
+        27.305
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$5",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        34.925,
+        29.845
+      ],
+      "user_xy": [
+        24.765,
+        29.845
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$5",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        24.765,
+        29.845
+      ],
+      "user_xy": [
+        34.925,
+        29.845
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$6",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        48.895,
+        29.845
+      ],
+      "user_xy": [
+        10.795,
+        29.845
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$6",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        51.435,
+        24.765
+      ],
+      "user_xy": [
+        8.255,
+        24.765
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$6",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        45.085,
+        27.305
+      ],
+      "user_xy": [
+        14.605,
+        27.305
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$6",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        53.975,
+        29.845
+      ],
+      "user_xy": [
+        5.715,
+        29.845
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$6",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        43.815,
+        29.845
+      ],
+      "user_xy": [
+        15.875,
+        29.845
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "X1",
+      "pad": "M3",
+      "plated": true,
+      "type": "slot",
+      "native_xy": [
+        34.165,
+        102.683
+      ],
+      "user_xy": [
+        25.525,
+        102.683
+      ],
+      "diameter": 0.6,
+      "length": 1.4,
+      "native_ends": [
+        [
+          34.165,
+          103.083
+        ],
+        [
+          34.165,
+          102.283
+        ]
+      ],
+      "user_ends": [
+        [
+          25.525,
+          103.083
+        ],
+        [
+          25.525,
+          102.283
+        ]
+      ]
+    },
+    {
+      "ref": "X1",
+      "pad": "M4",
+      "plated": true,
+      "type": "slot",
+      "native_xy": [
+        25.525,
+        102.683
+      ],
+      "user_xy": [
+        34.165,
+        102.683
+      ],
+      "diameter": 0.6,
+      "length": 1.4,
+      "native_ends": [
+        [
+          25.525,
+          103.083
+        ],
+        [
+          25.525,
+          102.283
+        ]
+      ],
+      "user_ends": [
+        [
+          34.165,
+          103.083
+        ],
+        [
+          34.165,
+          102.283
+        ]
+      ]
+    },
+    {
+      "ref": "X1",
+      "pad": "M2",
+      "plated": true,
+      "type": "slot",
+      "native_xy": [
+        25.525,
+        98.503
+      ],
+      "user_xy": [
+        34.165,
+        98.503
+      ],
+      "diameter": 0.6,
+      "length": 1.7,
+      "native_ends": [
+        [
+          25.525,
+          99.053
+        ],
+        [
+          25.525,
+          97.953
+        ]
+      ],
+      "user_ends": [
+        [
+          34.165,
+          99.053
+        ],
+        [
+          34.165,
+          97.953
+        ]
+      ]
+    },
+    {
+      "ref": "X1",
+      "pad": "M1",
+      "plated": true,
+      "type": "slot",
+      "native_xy": [
+        34.165,
+        98.503
+      ],
+      "user_xy": [
+        25.525,
+        98.503
+      ],
+      "diameter": 0.6,
+      "length": 1.7,
+      "native_ends": [
+        [
+          34.165,
+          99.053
+        ],
+        [
+          34.165,
+          97.953
+        ]
+      ],
+      "user_ends": [
+        [
+          25.525,
+          99.053
+        ],
+        [
+          25.525,
+          97.953
+        ]
+      ]
+    },
+    {
+      "ref": "X1",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        26.955,
+        99.003
+      ],
+      "user_xy": [
+        32.735,
+        99.003
+      ],
+      "diameter": 0.65
+    },
+    {
+      "ref": "X1",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        32.735,
+        99.003
+      ],
+      "user_xy": [
+        26.955,
+        99.003
+      ],
+      "diameter": 0.65
+    },
+    {
+      "ref": "U$12",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        10.795,
+        67.945
+      ],
+      "user_xy": [
+        48.895,
+        67.945
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$12",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        13.335,
+        62.865
+      ],
+      "user_xy": [
+        46.355,
+        62.865
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$12",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        6.985,
+        65.405
+      ],
+      "user_xy": [
+        52.705,
+        65.405
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$12",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        15.875,
+        67.945
+      ],
+      "user_xy": [
+        43.815,
+        67.945
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$12",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        5.715,
+        67.945
+      ],
+      "user_xy": [
+        53.975,
+        67.945
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$13",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        29.845,
+        67.945
+      ],
+      "user_xy": [
+        29.845,
+        67.945
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$13",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        32.385,
+        62.865
+      ],
+      "user_xy": [
+        27.305,
+        62.865
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$13",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        26.035,
+        65.405
+      ],
+      "user_xy": [
+        33.655,
+        65.405
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$13",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        34.925,
+        67.945
+      ],
+      "user_xy": [
+        24.765,
+        67.945
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$13",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        24.765,
+        67.945
+      ],
+      "user_xy": [
+        34.925,
+        67.945
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$40",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        48.895,
+        67.945
+      ],
+      "user_xy": [
+        10.795,
+        67.945
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$40",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        51.435,
+        62.865
+      ],
+      "user_xy": [
+        8.255,
+        62.865
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$40",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        45.085,
+        65.405
+      ],
+      "user_xy": [
+        14.605,
+        65.405
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$40",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        53.975,
+        67.945
+      ],
+      "user_xy": [
+        5.715,
+        67.945
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$40",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        43.815,
+        67.945
+      ],
+      "user_xy": [
+        15.875,
+        67.945
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$41",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        10.795,
+        48.895
+      ],
+      "user_xy": [
+        48.895,
+        48.895
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$41",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        13.335,
+        43.815
+      ],
+      "user_xy": [
+        46.355,
+        43.815
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$41",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        6.985,
+        46.355
+      ],
+      "user_xy": [
+        52.705,
+        46.355
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$41",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        15.875,
+        48.895
+      ],
+      "user_xy": [
+        43.815,
+        48.895
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$41",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        5.715,
+        48.895
+      ],
+      "user_xy": [
+        53.975,
+        48.895
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$42",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        29.845,
+        48.895
+      ],
+      "user_xy": [
+        29.845,
+        48.895
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$42",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        32.385,
+        43.815
+      ],
+      "user_xy": [
+        27.305,
+        43.815
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$42",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        26.035,
+        46.355
+      ],
+      "user_xy": [
+        33.655,
+        46.355
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$42",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        34.925,
+        48.895
+      ],
+      "user_xy": [
+        24.765,
+        48.895
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$42",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        24.765,
+        48.895
+      ],
+      "user_xy": [
+        34.925,
+        48.895
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$43",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        48.895,
+        48.895
+      ],
+      "user_xy": [
+        10.795,
+        48.895
+      ],
+      "diameter": 3.9
+    },
+    {
+      "ref": "U$43",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        51.435,
+        43.815
+      ],
+      "user_xy": [
+        8.255,
+        43.815
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$43",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        45.085,
+        46.355
+      ],
+      "user_xy": [
+        14.605,
+        46.355
+      ],
+      "diameter": 3.2
+    },
+    {
+      "ref": "U$43",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        53.975,
+        48.895
+      ],
+      "user_xy": [
+        5.715,
+        48.895
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "U$43",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        43.815,
+        48.895
+      ],
+      "user_xy": [
+        15.875,
+        48.895
+      ],
+      "diameter": 1.8135
+    },
+    {
+      "ref": "SW1",
+      "pad": "P$C",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        6.126699,
+        84.866699
+      ],
+      "user_xy": [
+        53.563301,
+        84.866699
+      ],
+      "diameter": 1.0
+    },
+    {
+      "ref": "SW1",
+      "pad": "P$A",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        7.894466,
+        83.098932
+      ],
+      "user_xy": [
+        51.795534,
+        83.098932
+      ],
+      "diameter": 1.0
+    },
+    {
+      "ref": "SW1",
+      "pad": "P$B",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        4.358932,
+        86.634466
+      ],
+      "user_xy": [
+        55.331068,
+        86.634466
+      ],
+      "diameter": 1.0
+    },
+    {
+      "ref": "SW1",
+      "pad": "P$GND1",
+      "plated": true,
+      "type": "slot",
+      "native_xy": [
+        16.096905,
+        85.503095
+      ],
+      "user_xy": [
+        43.593095,
+        85.503095
+      ],
+      "diameter": 2.0,
+      "length": 4.0,
+      "native_ends": [
+        [
+          15.389798,
+          84.795989
+        ],
+        [
+          16.804011,
+          86.210202
+        ]
+      ],
+      "user_ends": [
+        [
+          44.300202,
+          84.795989
+        ],
+        [
+          42.885989,
+          86.210202
+        ]
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pad": "P$GND2",
+      "plated": true,
+      "type": "slot",
+      "native_xy": [
+        6.763095,
+        94.836905
+      ],
+      "user_xy": [
+        52.926905,
+        94.836905
+      ],
+      "diameter": 2.0,
+      "length": 4.0,
+      "native_ends": [
+        [
+          6.055989,
+          94.129798
+        ],
+        [
+          7.470202,
+          95.544011
+        ]
+      ],
+      "user_ends": [
+        [
+          53.634011,
+          94.129798
+        ],
+        [
+          52.219798,
+          95.544011
+        ]
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pad": "P$1",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        18.147514,
+        93.35198
+      ],
+      "user_xy": [
+        41.542486,
+        93.35198
+      ],
+      "diameter": 1.0
+    },
+    {
+      "ref": "SW1",
+      "pad": "P$2",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        14.61198,
+        96.887514
+      ],
+      "user_xy": [
+        45.07802,
+        96.887514
+      ],
+      "diameter": 1.0
+    },
+    {
+      "ref": "SW2",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        58.085,
+        83.305
+      ],
+      "user_xy": [
+        1.605,
+        83.305
+      ],
+      "diameter": 1.0
+    },
+    {
+      "ref": "SW2",
+      "pad": "NPTH",
+      "plated": false,
+      "type": "round",
+      "native_xy": [
+        58.085,
+        85.605
+      ],
+      "user_xy": [
+        1.605,
+        85.605
+      ],
+      "diameter": 1.0
+    },
+    {
+      "ref": "TP1",
+      "pad": "P$1",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        3.81,
+        19.05
+      ],
+      "user_xy": [
+        55.88,
+        19.05
+      ],
+      "diameter": 4.25
+    },
+    {
+      "ref": "TP2",
+      "pad": "P$1",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        55.88,
+        19.05
+      ],
+      "user_xy": [
+        3.81,
+        19.05
+      ],
+      "diameter": 4.25
+    },
+    {
+      "ref": "TP3",
+      "pad": "P$1",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        3.81,
+        100.33
+      ],
+      "user_xy": [
+        55.88,
+        100.33
+      ],
+      "diameter": 4.25
+    },
+    {
+      "ref": "TP4",
+      "pad": "P$1",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        55.88,
+        100.33
+      ],
+      "user_xy": [
+        3.81,
+        100.33
+      ],
+      "diameter": 4.25
+    },
+    {
+      "ref": "e193",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        46.228,
+        101.092
+      ],
+      "user_xy": [
+        13.462,
+        101.092
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e194",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        36.322,
+        100.711
+      ],
+      "user_xy": [
+        23.368,
+        100.711
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e195",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        43.307,
+        103.124
+      ],
+      "user_xy": [
+        16.383,
+        103.124
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e196",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        47.879,
+        100.076
+      ],
+      "user_xy": [
+        11.811,
+        100.076
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e197",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        58.42,
+        93.853
+      ],
+      "user_xy": [
+        1.27,
+        93.853
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e198",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        58.42,
+        91.694
+      ],
+      "user_xy": [
+        1.27,
+        91.694
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e199",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        53.086,
+        91.059
+      ],
+      "user_xy": [
+        6.604,
+        91.059
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e200",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        37.338,
+        93.345
+      ],
+      "user_xy": [
+        22.352,
+        93.345
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e201",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        37.592,
+        84.201
+      ],
+      "user_xy": [
+        22.098,
+        84.201
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e202",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        43.688,
+        83.185
+      ],
+      "user_xy": [
+        16.002,
+        83.185
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e203",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        52.451,
+        88.392
+      ],
+      "user_xy": [
+        7.239,
+        88.392
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e204",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        46.736,
+        87.884
+      ],
+      "user_xy": [
+        12.954,
+        87.884
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e205",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        44.45,
+        87.884
+      ],
+      "user_xy": [
+        15.24,
+        87.884
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e206",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        22.352,
+        83.185
+      ],
+      "user_xy": [
+        37.338,
+        83.185
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e207",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        31.242,
+        85.852
+      ],
+      "user_xy": [
+        28.448,
+        85.852
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e208",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        26.924,
+        92.71
+      ],
+      "user_xy": [
+        32.766,
+        92.71
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e209",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        26.67,
+        96.52
+      ],
+      "user_xy": [
+        33.02,
+        96.52
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e210",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        33.782,
+        96.774
+      ],
+      "user_xy": [
+        25.908,
+        96.774
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e211",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        20.955,
+        103.124
+      ],
+      "user_xy": [
+        38.735,
+        103.124
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e212",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        29.718,
+        94.361
+      ],
+      "user_xy": [
+        29.972,
+        94.361
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e213",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        20.828,
+        97.536
+      ],
+      "user_xy": [
+        38.862,
+        97.536
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e214",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        21.844,
+        89.662
+      ],
+      "user_xy": [
+        37.846,
+        89.662
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e215",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        38.1,
+        97.409
+      ],
+      "user_xy": [
+        21.59,
+        97.409
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e216",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        51.308,
+        83.185
+      ],
+      "user_xy": [
+        8.382,
+        83.185
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e217",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        53.848,
+        85.979
+      ],
+      "user_xy": [
+        5.842,
+        85.979
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e218",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        55.372,
+        81.153
+      ],
+      "user_xy": [
+        4.318,
+        81.153
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e219",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        51.308,
+        79.121
+      ],
+      "user_xy": [
+        8.382,
+        79.121
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e220",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        25.898528,
+        80.146472
+      ],
+      "user_xy": [
+        33.791472,
+        80.146472
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e221",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        21.082,
+        101.473
+      ],
+      "user_xy": [
+        38.608,
+        101.473
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e222",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        52.324,
+        93.091
+      ],
+      "user_xy": [
+        7.366,
+        93.091
+      ],
+      "diameter": 0.499999
+    },
+    {
+      "ref": "e223",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        56.642,
+        87.884
+      ],
+      "user_xy": [
+        3.048,
+        87.884
+      ],
+      "diameter": 0.499999
+    },
+    {
+      "ref": "e224",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        33.55,
+        90.551
+      ],
+      "user_xy": [
+        26.14,
+        90.551
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e225",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        31.8135,
+        80.506
+      ],
+      "user_xy": [
+        27.8765,
+        80.506
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e226",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        31.4703,
+        90.551
+      ],
+      "user_xy": [
+        28.2197,
+        90.551
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e227",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        8.001,
+        70.866
+      ],
+      "user_xy": [
+        51.689,
+        70.866
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e228",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        27.051,
+        70.993
+      ],
+      "user_xy": [
+        32.639,
+        70.993
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e229",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        46.228,
+        70.993
+      ],
+      "user_xy": [
+        13.462,
+        70.993
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e230",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        44.704,
+        53.213
+      ],
+      "user_xy": [
+        14.986,
+        53.213
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e231",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        25.527,
+        53.086
+      ],
+      "user_xy": [
+        34.163,
+        53.086
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e232",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        7.493,
+        51.943
+      ],
+      "user_xy": [
+        52.197,
+        51.943
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e233",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        8.001,
+        32.766
+      ],
+      "user_xy": [
+        51.689,
+        32.766
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e234",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        25.654,
+        33.909
+      ],
+      "user_xy": [
+        34.036,
+        33.909
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e235",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        44.831,
+        34.036
+      ],
+      "user_xy": [
+        14.859,
+        34.036
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e236",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        44.831,
+        14.986
+      ],
+      "user_xy": [
+        14.859,
+        14.986
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e237",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        25.908,
+        15.113
+      ],
+      "user_xy": [
+        33.782,
+        15.113
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e238",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        6.731,
+        14.859
+      ],
+      "user_xy": [
+        52.959,
+        14.859
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e239",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        56.642,
+        71.628
+      ],
+      "user_xy": [
+        3.048,
+        71.628
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e240",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        50.292,
+        84.709
+      ],
+      "user_xy": [
+        9.398,
+        84.709
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e241",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        39.116,
+        60.452
+      ],
+      "user_xy": [
+        20.574,
+        60.452
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e242",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        47.625,
+        94.869
+      ],
+      "user_xy": [
+        12.065,
+        94.869
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e243",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        43.688,
+        93.599
+      ],
+      "user_xy": [
+        16.002,
+        93.599
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e244",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        27.559,
+        95.25
+      ],
+      "user_xy": [
+        32.131,
+        95.25
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e245",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        37.465,
+        85.344
+      ],
+      "user_xy": [
+        22.225,
+        85.344
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e246",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        21.5265,
+        71.9455
+      ],
+      "user_xy": [
+        38.1635,
+        71.9455
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e247",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        17.78,
+        27.432
+      ],
+      "user_xy": [
+        41.91,
+        27.432
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e248",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        21.971,
+        62.865
+      ],
+      "user_xy": [
+        37.719,
+        62.865
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e249",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        26.289,
+        22.606
+      ],
+      "user_xy": [
+        33.401,
+        22.606
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e250",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        16.788753,
+        79.697178
+      ],
+      "user_xy": [
+        42.901247,
+        79.697178
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e251",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        45.339,
+        61.595
+      ],
+      "user_xy": [
+        14.351,
+        61.595
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e252",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        17.5554,
+        78.431825
+      ],
+      "user_xy": [
+        42.1346,
+        78.431825
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e253",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        33.782,
+        66.04
+      ],
+      "user_xy": [
+        25.908,
+        66.04
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e254",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        23.09225,
+        59.69
+      ],
+      "user_xy": [
+        36.59775,
+        59.69
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e255",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        27.813,
+        39.878
+      ],
+      "user_xy": [
+        31.877,
+        39.878
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e256",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        22.606,
+        60.706
+      ],
+      "user_xy": [
+        37.084,
+        60.706
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e257",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        24.13,
+        42.545
+      ],
+      "user_xy": [
+        35.56,
+        42.545
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e258",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        19.177,
+        70.993
+      ],
+      "user_xy": [
+        40.513,
+        70.993
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e259",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        17.907,
+        46.609
+      ],
+      "user_xy": [
+        41.783,
+        46.609
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e260",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        22.352,
+        61.849
+      ],
+      "user_xy": [
+        37.338,
+        61.849
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e261",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        40.005,
+        22.479
+      ],
+      "user_xy": [
+        19.685,
+        22.479
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e262",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        19.558,
+        15.621
+      ],
+      "user_xy": [
+        40.132,
+        15.621
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e263",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        21.7464,
+        70.612
+      ],
+      "user_xy": [
+        37.9436,
+        70.612
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e264",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        21.463,
+        67.564
+      ],
+      "user_xy": [
+        38.227,
+        67.564
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e265",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        20.32,
+        13.843
+      ],
+      "user_xy": [
+        39.37,
+        13.843
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e266",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        22.479,
+        68.961
+      ],
+      "user_xy": [
+        37.211,
+        68.961
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e267",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        18.669,
+        14.478
+      ],
+      "user_xy": [
+        41.021,
+        14.478
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e268",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        34.671,
+        82.1396
+      ],
+      "user_xy": [
+        25.019,
+        82.1396
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e269",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        35.814,
+        82.296
+      ],
+      "user_xy": [
+        23.876,
+        82.296
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e270",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        53.34,
+        81.915
+      ],
+      "user_xy": [
+        6.35,
+        81.915
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e271",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        54.483,
+        75.946
+      ],
+      "user_xy": [
+        5.207,
+        75.946
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e272",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        55.0204,
+        89.281
+      ],
+      "user_xy": [
+        4.6696,
+        89.281
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e273",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        56.134,
+        94.234
+      ],
+      "user_xy": [
+        3.556,
+        94.234
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e274",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        36.781856,
+        81.7198
+      ],
+      "user_xy": [
+        22.908144,
+        81.7198
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e275",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        35.8775,
+        72.4535
+      ],
+      "user_xy": [
+        23.8125,
+        72.4535
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e276",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        23.0846,
+        79.5314
+      ],
+      "user_xy": [
+        36.6054,
+        79.5314
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e277",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        42.926,
+        63.119
+      ],
+      "user_xy": [
+        16.764,
+        63.119
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e278",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        27.686,
+        99.822
+      ],
+      "user_xy": [
+        32.004,
+        99.822
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e279",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        31.877,
+        99.949
+      ],
+      "user_xy": [
+        27.813,
+        99.949
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e280",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        50.419,
+        86.36
+      ],
+      "user_xy": [
+        9.271,
+        86.36
+      ],
+      "diameter": 0.5
+    },
+    {
+      "ref": "e281",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        33.003,
+        55.106
+      ],
+      "user_xy": [
+        26.687,
+        55.106
+      ],
+      "diameter": 0.3
+    },
+    {
+      "ref": "e282",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        52.053,
+        54.217
+      ],
+      "user_xy": [
+        7.637,
+        54.217
+      ],
+      "diameter": 0.3
+    },
+    {
+      "ref": "e283",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        35.56,
+        60.132
+      ],
+      "user_xy": [
+        24.13,
+        60.132
+      ],
+      "diameter": 0.3
+    },
+    {
+      "ref": "e284",
+      "pad": "VIA",
+      "plated": true,
+      "type": "round",
+      "native_xy": [
+        39.695,
+        57.744
+      ],
+      "user_xy": [
+        19.995,
+        57.744
+      ],
+      "diameter": 0.3
+    }
+  ]
+}

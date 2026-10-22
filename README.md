@@ -2,9 +2,9 @@
 
 An editable EasyEDA Pro adaptation of the Adafruit MacroPad RP2040 Rev D: 12 MX-compatible hot-swap keys in a 3-column by 4-row layout, onboard RP2040, and USB-C.
 
-<img src="docs/images/prototype-3d.png" alt="Angled native EasyEDA Pro 3D render of the Rev C bare PCB, showing routing, mounting holes and silkscreen" width="600">
+<img src="docs/images/assembled-prototype.png" alt="Assembled MACRO12 Rev C with twelve white and teal keycaps, OLED display, encoder knob and plate stack" width="700">
 
-Rev C prototype PCB in EasyEDA Pro's native 3D preview. This is a bare-board render; the project has no component models, so switches, keycaps and electronics are not shown. Solder-mask and pad colors are illustrative. Physical assembly and testing remain pending.
+Assembled Rev C prototype visualization using the actual board layout and CAD component models. Keycaps, knob, colors and displayed UI are illustrative. [Editable Blender scene, model sources and reproduction instructions](hardware/3d/).
 
 **Rev C is released for first-article bare-board fabrication with the specified manufacturing and assembly constraints.** Native electrical DRC and schematic comparison pass; independent checks confirm all 76 nets, 338 physical pads and 171 drilled features. Nine intentional mechanical overlap findings remain documented individually in the [mechanical review](docs/mechanical-review.md). No physical board has been assembled or powered.
 
@@ -36,6 +36,7 @@ The EasyEDA project is the revised canonical design. The EAGLE files in `hardwar
 ## Files
 
 - [`hardware/easyeda/`](hardware/easyeda/): editable revised project.
+- [`hardware/3d/`](hardware/3d/): assembled visualization, editable Blender scene, source CAD and render script.
 - [`firmware/`](firmware/): QMK source, VIA definition, build workflow, flashing instructions, and first-article checks.
 - [`fabrication/`](fabrication/): reviewed Gerber/Excellon ZIP and its ten unmodified manufacturing files.
 - [`hardware/upstream/`](hardware/upstream/): original Rev D board and schematic, full upstream README, license, and its referenced product image.
@@ -51,4 +52,4 @@ The EasyEDA project is the revised canonical design. The EAGLE files in `hardwar
 
 Derived from [Adafruit MacroPad RP2040 PCB](https://github.com/adafruit/Adafruit-MacroPad-RP2040-PCB), designed by Limor Fried/Ladyada for Adafruit Industries, at commit `fdd7f2cb3bc2b3c7a9c0765780387647ea872141`.
 
-The hardware design and modifications are distributed under **Creative Commons Attribution-ShareAlike 3.0 Unported**; see [LICENSE](LICENSE). The original [upstream README](hardware/upstream/README.md) is included in full as required by its redistribution notice. Hardware documentation uses the same license. Firmware, its documentation and tooling use **GPL-2.0-or-later**; see [firmware licensing](firmware/README.md#license-and-source). Adafruit and Raspberry Pi names identify the upstream design and component platform; this adaptation is not an official Adafruit product.
+The hardware design and modifications are distributed under **Creative Commons Attribution-ShareAlike 3.0 Unported**; see [LICENSE](LICENSE). The original [upstream README](hardware/upstream/README.md) is included in full as required by its redistribution notice. Hardware documentation uses the same license. The assembled visualization includes MIT-licensed Adafruit CAD; see [3D model licensing](hardware/3d/README.md#sources-and-licenses). Firmware, its documentation and tooling use **GPL-2.0-or-later**; see [firmware licensing](firmware/README.md#license-and-source). Adafruit and Raspberry Pi names identify the upstream design and component platform; this adaptation is not an official Adafruit product.

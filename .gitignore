@@ -10,3 +10,4 @@ __pycache__/
 work/
 artifacts/
 node_modules/
+*.blend1

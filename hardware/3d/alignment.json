@@ -1,0 +1,1424 @@
+{
+  "units": "millimetres",
+  "coordinate_system": {
+    "scene": "Official assembled STEP coordinates. +Z points toward keycaps. XY centered onPCB. userXY=sceneXY+[29.845,52.07].",
+    "pcb_user_face_z": 3.14,
+    "pcb_electronics_face_z": 1.54,
+    "pcb_thickness": 1.6
+  },
+  "remove_and_replace_components": [
+    {
+      "id": 0,
+      "name": "Board:1",
+      "reason": "Replace bottom plate stack to match 3 mm nut shoulder and 1.6 mm backplate."
+    },
+    {
+      "id": 1,
+      "name": "Board:1",
+      "reason": "Replace old board mesh with true Rev C PCB, 1.6 mm thick and native CAM surface."
+    },
+    {
+      "id": 58,
+      "name": "0603-NO:R9",
+      "reason": "Native reference BOM marks R9 DNP."
+    },
+    {
+      "id": 63,
+      "name": "PEC11+SWITCH:SW1",
+      "reason": "Replace older 20 mm shaft encoder with PEC11R-4215F-S0024, 15 mm shaft."
+    },
+    {
+      "id": 79,
+      "name": "ZJY130-2864KSWLG22:X2",
+      "reason": "Replace simplified 2 mm flush OLED with 34.5x23x1.4 panel and0.5 mm insulating spacer."
+    },
+    {
+      "id": 83,
+      "name": "SOT23-6:IC2",
+      "reason": "Obsolete upstream PAM8301 SOT23-6. Current board has U3 PAM8302 MSOP8."
+    },
+    {
+      "id": 84,
+      "name": "M3 SMT8mm:1",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    },
+    {
+      "id": 85,
+      "name": "M3 SMT8mm:2",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    },
+    {
+      "id": 86,
+      "name": "M3 SMT8mm:3",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    },
+    {
+      "id": 87,
+      "name": "M3 SMT8mm:4",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    },
+    {
+      "id": 101,
+      "name": "M3x6mm:1",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    },
+    {
+      "id": 102,
+      "name": "M3x6mm:2",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    },
+    {
+      "id": 103,
+      "name": "M3x6mm:3",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    },
+    {
+      "id": 104,
+      "name": "M3x6mm:4",
+      "reason": "Replace 8 mm nut/screw hardware with specified Adafruit4207-style 3 mm shoulder and M3x5 stack."
+    }
+  ],
+  "retain_unmodified_components": [
+    {
+      "id": 88,
+      "name": "cherry mx v8:1",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 89,
+      "name": "cherry mx v8:2",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 90,
+      "name": "cherry mx v8:3",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 91,
+      "name": "cherry mx v8:4",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 92,
+      "name": "cherry mx v8:5",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 93,
+      "name": "cherry mx v8:6",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 94,
+      "name": "cherry mx v8:7",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 95,
+      "name": "cherry mx v8:8",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 96,
+      "name": "cherry mx v8:9",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 97,
+      "name": "cherry mx v8:10",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 98,
+      "name": "cherry mx v8:11",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 99,
+      "name": "cherry mx v8:12",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    },
+    {
+      "id": 100,
+      "name": "Board:1",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "reason": "Switch centers and keyplate geometry align with current grid."
+    }
+  ],
+  "per_component_translations": [
+    {
+      "id": 2,
+      "name": "KAILH_SOCKET:U$1",
+      "ref": "U$1",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 3,
+      "name": "KAILH_SOCKET:U$2",
+      "ref": "U$2",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 4,
+      "name": "KAILH_SOCKET:U$3",
+      "ref": "U$3",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 5,
+      "name": "KAILH_SOCKET:U$4",
+      "ref": "U$4",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 6,
+      "name": "KAILH_SOCKET:U$5",
+      "ref": "U$5",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 7,
+      "name": "KAILH_SOCKET:U$6",
+      "ref": "U$6",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 8,
+      "name": "KAILH_SOCKET:U$12",
+      "ref": "U$12",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 9,
+      "name": "KAILH_SOCKET:U$13",
+      "ref": "U$13",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 10,
+      "name": "KAILH_SOCKET:U$40",
+      "ref": "U$40",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 11,
+      "name": "KAILH_SOCKET:U$41",
+      "ref": "U$41",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 12,
+      "name": "KAILH_SOCKET:U$42",
+      "ref": "U$42",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 13,
+      "name": "KAILH_SOCKET:U$43",
+      "ref": "U$43",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 14,
+      "name": "0805-NO:C6",
+      "ref": "C6",
+      "translation_mm": [
+        -0.0001,
+        -9.9e-05,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 15,
+      "name": "0805-NO:C8",
+      "ref": "C8",
+      "translation_mm": [
+        0.000501,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 16,
+      "name": "0805-NO:C7",
+      "ref": "C7",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 17,
+      "name": "0805-NO:C9",
+      "ref": "C9",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 18,
+      "name": "0805-NO:C14",
+      "ref": "C14",
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 19,
+      "name": "0805-NO:C22",
+      "ref": "C22",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 20,
+      "name": "0805-NO:C23",
+      "ref": "C23",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 21,
+      "name": "0805-NO:C24",
+      "ref": "C24",
+      "translation_mm": [
+        0.0,
+        0.6355,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 22,
+      "name": "0805-NO:C25",
+      "ref": "C25",
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 23,
+      "name": "CHIPLED_0603_NOOUTLINE:L",
+      "ref": "L",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 24,
+      "name": "SOT23-5:U2",
+      "ref": "U2",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 25,
+      "name": "SOT23-5:IC1",
+      "ref": "IC1",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 26,
+      "name": "USON8_4X4:U1",
+      "ref": "U1",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 27,
+      "name": "0603-NO:R2",
+      "ref": "R2",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 28,
+      "name": "0603-NO:C2",
+      "ref": "C2",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 29,
+      "name": "0603-NO:C10",
+      "ref": "C10",
+      "translation_mm": [
+        -0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 30,
+      "name": "0603-NO:C3",
+      "ref": "C3",
+      "translation_mm": [
+        0.0,
+        0.0005,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 31,
+      "name": "0603-NO:C4",
+      "ref": "C4",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 32,
+      "name": "0603-NO:C11",
+      "ref": "C11",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 33,
+      "name": "0603-NO:C12",
+      "ref": "C12",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 34,
+      "name": "0603-NO:C13",
+      "ref": "C13",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 35,
+      "name": "0603-NO:C16",
+      "ref": "C16",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 36,
+      "name": "0603-NO:C19",
+      "ref": "C19",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 37,
+      "name": "0603-NO:C20",
+      "ref": "C20",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 38,
+      "name": "0603-NO:R6",
+      "ref": "R6",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 39,
+      "name": "0603-NO:R11",
+      "ref": "R11",
+      "translation_mm": [
+        0.0002,
+        -0.0001,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 40,
+      "name": "0603-NO:R3",
+      "ref": "R3",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 41,
+      "name": "0603-NO:R4",
+      "ref": "R4",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 42,
+      "name": "0603-NO:C1",
+      "ref": "C1",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 43,
+      "name": "0603-NO:C5",
+      "ref": "C5",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 44,
+      "name": "0603-NO:R12",
+      "ref": "R12",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 45,
+      "name": "0603-NO:C21",
+      "ref": "C21",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 46,
+      "name": "0603-NO:C15",
+      "ref": "C15",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 47,
+      "name": "0603-NO:C17",
+      "ref": "C17",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 48,
+      "name": "0603-NO:C18",
+      "ref": "C18",
+      "translation_mm": [
+        -0.444,
+        1.5875,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 49,
+      "name": "0603-NO:R5",
+      "ref": "R5",
+      "translation_mm": [
+        -1.143,
+        3.302,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 50,
+      "name": "0603-NO:R10",
+      "ref": "R10",
+      "translation_mm": [
+        0.0005,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 51,
+      "name": "0603-NO:R7",
+      "ref": "R7",
+      "translation_mm": [
+        0.0,
+        0.0005,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 52,
+      "name": "0603-NO:C26",
+      "ref": "C26",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 53,
+      "name": "0603-NO:C27",
+      "ref": "C27",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 54,
+      "name": "0603-NO:C28",
+      "ref": "C28",
+      "translation_mm": [
+        -0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 55,
+      "name": "0603-NO:C29",
+      "ref": "C29",
+      "translation_mm": [
+        0.0005,
+        0.5085,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 56,
+      "name": "0603-NO:R8",
+      "ref": "R8",
+      "translation_mm": [
+        0.3815,
+        0.508,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 57,
+      "name": "0603-NO:C30",
+      "ref": "C30",
+      "translation_mm": [
+        1.3335,
+        1.334,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 59,
+      "name": "0603-NO:C31",
+      "ref": "C31",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 60,
+      "name": "QFN56_7MM_REDUCEDEPAD:IC3",
+      "ref": "IC3",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 61,
+      "name": "CRYSTAL_2.5X2:Y1",
+      "ref": "Y1",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 62,
+      "name": "USB_C_CUSB31-CFM2AX-01-X:X1",
+      "ref": "X1",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 64,
+      "name": "NEO3535_REVERSE:LED1",
+      "ref": "LED1",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 65,
+      "name": "NEO3535_REVERSE:LED2",
+      "ref": "LED2",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 66,
+      "name": "NEO3535_REVERSE:LED3",
+      "ref": "LED3",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 67,
+      "name": "NEO3535_REVERSE:LED4",
+      "ref": "LED4",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 68,
+      "name": "NEO3535_REVERSE:LED5",
+      "ref": "LED5",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 69,
+      "name": "NEO3535_REVERSE:LED6",
+      "ref": "LED6",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 70,
+      "name": "NEO3535_REVERSE:LED7",
+      "ref": "LED7",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 71,
+      "name": "NEO3535_REVERSE:LED8",
+      "ref": "LED8",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 72,
+      "name": "NEO3535_REVERSE:LED9",
+      "ref": "LED9",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 73,
+      "name": "NEO3535_REVERSE:LED10",
+      "ref": "LED10",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 74,
+      "name": "NEO3535_REVERSE:LED11",
+      "ref": "LED11",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 75,
+      "name": "NEO3535_REVERSE:LED12",
+      "ref": "LED12",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 76,
+      "name": "SPST_TACTILE_RA:SW2",
+      "ref": "SW2",
+      "translation_mm": [
+        0.127,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 77,
+      "name": "JST_SH4:CONN1",
+      "ref": "CONN1",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 78,
+      "name": "SOD-323:D3",
+      "ref": "D3",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 80,
+      "name": "RESPACK_4X0603:R14",
+      "ref": "R14",
+      "translation_mm": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 81,
+      "name": "RESPACK_4X0603:R1",
+      "ref": "R1",
+      "translation_mm": [
+        0.0,
+        0.0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    },
+    {
+      "id": 82,
+      "name": "BUZZER_SMT_7.5MM:SP2",
+      "ref": "SP2",
+      "translation_mm": [
+        0,
+        0,
+        -0.03
+      ],
+      "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+    }
+  ],
+  "add_electronics": [
+    {
+      "ref": "R15",
+      "value": "47K",
+      "package": "0603-NO",
+      "user_xy": [
+        21.082,
+        66.421
+      ],
+      "scene_xy": [
+        -8.763,
+        14.351
+      ],
+      "native_rotation_deg": 270,
+      "body_user_rotation_deg": 270,
+      "side": "underside",
+      "body_seating_z": 1.54,
+      "clone_component_id": 27,
+      "clone_z_rotation_delta_deg": -90,
+      "body_size_mm": [
+        1.6,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "ref": "C33",
+      "value": "0.1uF",
+      "package": "0603-NO",
+      "user_xy": [
+        22.606,
+        66.421
+      ],
+      "scene_xy": [
+        -7.239,
+        14.351
+      ],
+      "native_rotation_deg": 270,
+      "body_user_rotation_deg": 270,
+      "side": "underside",
+      "body_seating_z": 1.54,
+      "clone_component_id": 27,
+      "clone_z_rotation_delta_deg": -90,
+      "body_size_mm": [
+        1.6,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "ref": "PTC1",
+      "value": "500mA",
+      "package": "0805-NO",
+      "user_xy": [
+        10.922,
+        85.598
+      ],
+      "scene_xy": [
+        -18.923,
+        33.528
+      ],
+      "native_rotation_deg": 90,
+      "body_user_rotation_deg": 90,
+      "side": "underside",
+      "body_seating_z": 1.54,
+      "clone_component_id": 14,
+      "clone_z_rotation_delta_deg": 0,
+      "body_size_mm": [
+        2,
+        1.25,
+        1
+      ]
+    },
+    {
+      "ref": "C32",
+      "value": "10uF",
+      "package": "0805-NO",
+      "user_xy": [
+        23.622,
+        59.69
+      ],
+      "scene_xy": [
+        -6.223,
+        7.62
+      ],
+      "native_rotation_deg": 90,
+      "body_user_rotation_deg": 90,
+      "side": "underside",
+      "body_seating_z": 1.54,
+      "clone_component_id": 14,
+      "clone_z_rotation_delta_deg": 0,
+      "body_size_mm": [
+        2,
+        1.25,
+        1
+      ]
+    },
+    {
+      "ref": "C34",
+      "value": "0.1uF",
+      "package": "0603-NO",
+      "user_xy": [
+        17.653,
+        59.817
+      ],
+      "scene_xy": [
+        -12.192,
+        7.747
+      ],
+      "native_rotation_deg": 90,
+      "body_user_rotation_deg": 90,
+      "side": "underside",
+      "body_seating_z": 1.54,
+      "clone_component_id": 27,
+      "clone_z_rotation_delta_deg": 90,
+      "body_size_mm": [
+        1.6,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "PAM8302",
+      "package": "MSOP8_0.65MM",
+      "user_xy": [
+        20.32,
+        60.96
+      ],
+      "scene_xy": [
+        -9.525,
+        8.89
+      ],
+      "native_rotation_deg": 180,
+      "body_user_rotation_deg": 0,
+      "side": "underside",
+      "body_seating_z": 1.54,
+      "body_size_mm": [
+        3,
+        3,
+        0.85
+      ],
+      "terminal_pitch_mm": 0.65,
+      "terminal_count": 8,
+      "lead_span_mm": 4.9,
+      "model_accuracy": "MSOP8 body plan dimensions from native package; generic lead/body visualization, not a manufacturer-sourced package model."
+    }
+  ],
+  "no_body_required_refs": [
+    "U$34",
+    "U$35",
+    "U$80",
+    "TP5",
+    "TP6"
+  ],
+  "replacement_oled": {
+    "ref": "X2",
+    "scene_center_xy": [
+      -11.811,
+      39.2885
+    ],
+    "glass_size_mm": [
+      34.5,
+      23,
+      1.4
+    ],
+    "glass_z_bounds": [
+      3.64,
+      5.04
+    ],
+    "active_area_mm": [
+      29.42,
+      14.7
+    ],
+    "active_center_scene_xy": [
+      -11.811,
+      41.3385
+    ],
+    "spacer_minimum_installed_height_mm": 0.5,
+    "source_drawing": "ZJY130-2864KSWLG22_verB, pages4-5; native glass envelope."
+  },
+  "replacement_encoder": {
+    "ref": "SW1",
+    "scene_center_xy": [
+      18.415,
+      38.1
+    ],
+    "rotation_z_deg": 45,
+    "body_size_mm": [
+      12.5,
+      13.4,
+      6.5
+    ],
+    "body_z_bounds": [
+      3.14,
+      9.64
+    ],
+    "bushing_diameter_mm": 7,
+    "bushing_height_mm": 5,
+    "bushing_z_bounds": [
+      9.64,
+      14.64
+    ],
+    "shaft_diameter_mm": 6,
+    "shaft_L_from_body_top_mm": 15,
+    "shaft_tip_z": 24.64,
+    "shaft_flat_to_back_dimension_mm": 4.5,
+    "shaft_flat_length_mm": 7,
+    "source": "Bourns PEC11R drawing pages2-3 in https://www.bourns.com/docs/product-datasheets/pec11r.pdf, partPEC11R-4215F-S0024. 13.2 mm is tab pitch, not the 13.4 mm body dimension.",
+    "knob": {
+      "diameter_mm": 16,
+      "height_mm": 14.5,
+      "illustrative_z_bounds": [
+        11.0,
+        25.5
+      ],
+      "description": "Cosmetic example, not BOM-selected. Internal cavity must clear M7 bushing. It may be simplified visually and is not a fit-tested part."
+    }
+  },
+  "replacement_mounting": {
+    "scene_xy": [
+      [
+        26.035,
+        -33.02
+      ],
+      [
+        -26.035,
+        -33.02
+      ],
+      [
+        26.035,
+        48.26
+      ],
+      [
+        -26.035,
+        48.26
+      ]
+    ],
+    "nut_body_diameter_mm": 5.56,
+    "nut_shoulder_height_mm": 3,
+    "nut_body_z_bounds": [
+      -1.46,
+      1.54
+    ],
+    "nose_max_height_mm": 1.5,
+    "nose_z_bounds": [
+      1.54,
+      3.04
+    ],
+    "nose_max_diameter_mm": 4.2,
+    "thread_nominal_mm": 3,
+    "backplate_z_bounds": [
+      -3.06,
+      -1.46
+    ],
+    "backplate_thickness_mm": 1.6,
+    "screw_under_head_length_mm": 5,
+    "screw_tip_z": 1.94,
+    "screw_front_recess_mm": 1.2,
+    "screw_head_nominal_height_mm": 1.65,
+    "screw_head_z_bounds": [
+      -4.71,
+      -3.06
+    ],
+    "source": "Assembly controls in docs/mechanical-review.md: Adafruit4207-equivalent3mm shoulder, max1.5mm nose,5.56mm body, M3x5 with1.5\u20131.6mm backplate. Nose diameter shown as4.2 is illustrative clearance inside4.25mm board hole."
+  },
+  "audit": {
+    "source_assembly_is_old_adafruit_revC": true,
+    "source_electrical_base_is_adafruit_revD": true,
+    "keys_and_mounting_centers_match": true,
+    "existing_passives_with_substantial_xy_correction": [
+      {
+        "id": 21,
+        "name": "0805-NO:C24",
+        "ref": "C24",
+        "translation_mm": [
+          0.0,
+          0.6355,
+          -0.03
+        ],
+        "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+      },
+      {
+        "id": 48,
+        "name": "0603-NO:C18",
+        "ref": "C18",
+        "translation_mm": [
+          -0.444,
+          1.5875,
+          -0.03
+        ],
+        "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+      },
+      {
+        "id": 49,
+        "name": "0603-NO:R5",
+        "ref": "R5",
+        "translation_mm": [
+          -1.143,
+          3.302,
+          -0.03
+        ],
+        "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+      },
+      {
+        "id": 55,
+        "name": "0603-NO:C29",
+        "ref": "C29",
+        "translation_mm": [
+          0.0005,
+          0.5085,
+          -0.03
+        ],
+        "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+      },
+      {
+        "id": 56,
+        "name": "0603-NO:R8",
+        "ref": "R8",
+        "translation_mm": [
+          0.3815,
+          0.508,
+          -0.03
+        ],
+        "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+      },
+      {
+        "id": 57,
+        "name": "0603-NO:C30",
+        "ref": "C30",
+        "translation_mm": [
+          1.3335,
+          1.334,
+          -0.03
+        ],
+        "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+      },
+      {
+        "id": 76,
+        "name": "SPST_TACTILE_RA:SW2",
+        "ref": "SW2",
+        "translation_mm": [
+          0.127,
+          0,
+          -0.03
+        ],
+        "reason": "Underside seating plane moves fromZ1.57 to1.54 for 1.6 mmPCB; passives additionally centered from final native data. SW2 is moved0.127 mm in user+X."
+      }
+    ],
+    "render_limitations": "CAD-based assembly visualization. Cosmetic keycaps, knob and screen image are illustrative. Source component shapes are representative; this is not a mechanical interference/assembly certification."
+  }
+}
