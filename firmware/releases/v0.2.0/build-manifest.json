@@ -1,0 +1,40 @@
+{
+  "firmware_version": "0.2.0",
+  "source_commit": "e17ea059e2b1d2ec2c0a0feb54a99a97d9cc3c46",
+  "qmk_commit": "180f394b489c238cb231c2bf8b080262155e03c0",
+  "qmk_cli": "1.2.0",
+  "arm_gcc": "arm-none-eabi-gcc (15:13.2.rel1-2) 13.2.1 20231009",
+  "qmk_submodules": [
+    "6170ddf92d55be54c89b708d1882eea229edeb2c lib/chibios (heads/qmk-master)",
+    " 5a9ad82b6ba4f649cdb800e8c2bbc9be2d3ce767 lib/chibios-contrib (heads/qmk-master)",
+    " d0c5cac430cc955b65efa0e899748853d9a80928 lib/pico-sdk (heads/qmk-master)",
+    " c2e3b4e10d281e7f0f694d3ecbd9f320977288cc lib/printf (heads/qmk-master)"
+  ],
+  "validation": "compiled and statically checked; physical hardware untested",
+  "firmware": [
+    {
+      "file": "MACRO12-RevC-default.uf2",
+      "size_bytes": 114688,
+      "sha256": "5e701cd393b3eaf05809c8601cfcc8b4047f7abdd510c233cbbee6d8293c8758",
+      "blocks": 224,
+      "flash_payload_bytes": 57344,
+      "family": "RP2040",
+      "flash_start": "0x10000000",
+      "flash_end_exclusive": "0x1000e000",
+      "boot2_crc": "pass",
+      "vector_table": "pass"
+    },
+    {
+      "file": "MACRO12-RevC-via.uf2",
+      "size_bytes": 123904,
+      "sha256": "98d797bf53e9856893496582379b6725530c84a69adeee6a1bf6af9ebc2192b2",
+      "blocks": 242,
+      "flash_payload_bytes": 61952,
+      "family": "RP2040",
+      "flash_start": "0x10000000",
+      "flash_end_exclusive": "0x1000f200",
+      "boot2_crc": "pass",
+      "vector_table": "pass"
+    }
+  ]
+}
