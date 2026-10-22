@@ -63,7 +63,7 @@ See [pinout.md](pinout.md) for all GPIO assignments and [first-article.md](first
 
 ## Build from source
 
-The workflow [Build QMK firmware](../.github/workflows/firmware.yml) builds both keymaps on Ubuntu 24.04 and uploads UF2 files, ELF/BIN/MAP debug outputs when available, logs and a SHA-256 manifest. It does not flash hardware or publish releases automatically.
+The workflow [Build QMK firmware](../.github/workflows/firmware.yml) builds both keymaps on Ubuntu 24.04 and uploads UF2 files, ELF/BIN/MAP debug outputs when available, logs, a SHA-256 manifest, and a complete source archive containing this project, QMK and the required submodules with their licenses. It does not flash hardware or publish releases automatically.
 
 On Linux or a configured QMK MSYS environment, install the [QMK prerequisites](https://docs.qmk.fm/newbs_getting_started) and Python 3.12, then run from this repository root:
 

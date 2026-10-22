@@ -10,6 +10,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tarfile
 from pathlib import Path
 
 from verify_uf2 import verify
@@ -89,6 +90,22 @@ def main():
     }
     (output / 'build-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
     run([sys.executable, '-m', 'pip', 'freeze'], log=output / 'python-packages.txt')
+    # Ship the complete used upstream sources and their licenses alongside
+    # binaries. Unused submodules are not needed for this RP2040 target.
+    def source_filter(member):
+        parts = Path(member.name).parts
+        if '.git' in parts or '.build' in parts or '__pycache__' in parts:
+            return None
+        if len(parts) == 2 and Path(member.name).suffix in ('.uf2', '.bin', '.hex', '.elf', '.map'):
+            return None
+        return member
+
+    with tarfile.open(output / 'MACRO12-RevC-QMK-source.tar.gz', 'w:gz') as archive:
+        archive.add(qmk, arcname='qmk_firmware', filter=source_filter)
+        tracked = subprocess.check_output(['git', 'ls-files', '-z'], cwd=REPO).decode().split('\0')
+        for name in tracked:
+            if name:
+                archive.add(REPO / name, arcname='macro12-project/' + name)
     (output / 'SHA256SUMS').write_text(''.join(
         f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.name}\n'
         for p in sorted(output.iterdir()) if p.is_file() and p.name != 'SHA256SUMS'), encoding='utf-8')

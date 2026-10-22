@@ -15,7 +15,7 @@ Viewed from the keycap side, the twelve switches are ordered left to right, top 
 | 2: Numbers | 7 / 8 / 9 | 4 / 5 / 6 | 1 / 2 / 3 | 0 / . / Enter | Left / Right |
 | 3: Controls | Previous / Play-pause / Next | Ctrl-X / Ctrl-C / Ctrl-V | RGB toggle / Next effect / Hue up | Base / Navigation / Numbers | RGB brightness down / up |
 
-Tap the knob for mute; hold it for layer 3. While holding it, press a bottom-row key to select the persistent working layer. Layer 3 has the highest priority so the controls remain reachable from every preset. The hold resolves at 200 ms, or when another switch is pressed. Windows/Linux editing shortcuts use Control; change them to Command in VIA or source for macOS. Number keys use the number row, independent of host Num Lock.
+Tap the knob for mute; hold it for layer 3. While holding it, press a bottom-row key to select the working layer until reset or another selection. Layer 3 has the highest priority so the controls remain reachable from every preset. The hold resolves at 200 ms, or when another switch is pressed. Windows/Linux editing shortcuts use Control; change them to Command in VIA or source for macOS. Number keys use the number row, independent of host Num Lock.
 
 RGB starts cyan at brightness 48/255 and is capped at 96/255. RGB turns off during USB suspend. OLED shows active layer number, RGB level and host lock flags; it sleeps after 60 seconds of inactivity. OLED text deliberately does not claim to describe remapped VIA keys. All presets are silent: GPIO14 drives the amplifier shutdown low and GPIO16 is held low. STEMMA QT has no peripheral driver enabled.
 
