@@ -21,7 +21,7 @@ These previews are rendered from the released manufacturing data.
 | Board | 59.69 x 104.14 mm, two copper layers |
 | Retained upstream features | 12 reverse-mount RGB LEDs, 16-pin folding OLED panel, speaker/amplifier, STEMMA QT |
 
-The keys connect individually to GPIO1 through GPIO12; they are not a matrix. The electronic circuit and pin assignments come from the upstream Adafruit Rev D source. This repository contains the hardware adaptation and does not include a newly developed or hardware-tested firmware build.
+The keys connect individually to GPIO1 through GPIO12; they are not a matrix. The electronic circuit and pin assignments come from the upstream Adafruit Rev D source. [QMK firmware with VIA support](firmware/README.md) provides four layers, remappable keys and encoder, RGB effects, and OLED status. Physical firmware testing remains pending.
 
 ## Open and edit
 
@@ -32,6 +32,7 @@ The EasyEDA project is the revised canonical design. The EAGLE files in `hardwar
 ## Files
 
 - [`hardware/easyeda/`](hardware/easyeda/): editable revised project.
+- [`firmware/`](firmware/): QMK source, VIA definition, build workflow, flashing instructions, and first-article checks.
 - [`fabrication/`](fabrication/): reviewed Gerber/Excellon ZIP and its ten unmodified manufacturing files.
 - [`hardware/upstream/`](hardware/upstream/): original Rev D board and schematic, full upstream README, license, and its referenced product image.
 - [`bom/`](bom/): reference BOM with Rev C part selections and retained upstream metadata. This is not an assembly-approved BOM or placement file.
@@ -46,4 +47,4 @@ The EasyEDA project is the revised canonical design. The EAGLE files in `hardwar
 
 Derived from [Adafruit MacroPad RP2040 PCB](https://github.com/adafruit/Adafruit-MacroPad-RP2040-PCB), designed by Limor Fried/Ladyada for Adafruit Industries, at commit `fdd7f2cb3bc2b3c7a9c0765780387647ea872141`.
 
-The hardware design and modifications are distributed under **Creative Commons Attribution-ShareAlike 3.0 Unported**; see [LICENSE](LICENSE). The original [upstream README](hardware/upstream/README.md) is included in full as required by its redistribution notice. New project documentation is provided under the same license. Adafruit and Raspberry Pi names identify the upstream design and component platform; this adaptation is not an official Adafruit product.
+The hardware design and modifications are distributed under **Creative Commons Attribution-ShareAlike 3.0 Unported**; see [LICENSE](LICENSE). The original [upstream README](hardware/upstream/README.md) is included in full as required by its redistribution notice. Hardware documentation uses the same license. Firmware, its documentation and tooling use **GPL-2.0-or-later**; see [firmware licensing](firmware/README.md#license-and-source). Adafruit and Raspberry Pi names identify the upstream design and component platform; this adaptation is not an official Adafruit product.

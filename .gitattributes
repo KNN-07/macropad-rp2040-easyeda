@@ -1,5 +1,7 @@
 # Preserve exact source/export bytes and published checksums.
 * -text
+firmware/** text eol=lf
+.github/** text eol=lf
 *.epro binary
 *.jpg binary
 *.png binary

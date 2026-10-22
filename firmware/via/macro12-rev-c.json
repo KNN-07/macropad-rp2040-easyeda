@@ -1,0 +1,17 @@
+{
+  "name": "MACRO12 Rev C",
+  "vendorId": "0x4B4E",
+  "productId": "0x124C",
+  "matrix": { "rows": 5, "cols": 3 },
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
+  "layouts": {
+    "keymap": [
+      [{ "x": 2 }, "0,2\n\n\n\n\n\n\n\n\ne0"],
+      ["1,0", "1,1", "1,2"],
+      ["2,0", "2,1", "2,2"],
+      ["3,0", "3,1", "3,2"],
+      ["4,0", "4,1", "4,2"]
+    ]
+  }
+}

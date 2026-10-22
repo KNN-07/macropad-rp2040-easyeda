@@ -1,0 +1,9 @@
+{
+  "qmk_repository": "https://github.com/qmk/qmk_firmware.git",
+  "qmk_commit": "180f394b489c238cb231c2bf8b080262155e03c0",
+  "qmk_cli_version": "1.2.0",
+  "keyboard": "knn07/macropad_rev_c",
+  "keymaps": ["default", "via"],
+  "firmware_version": "0.2.0",
+  "submodules": ["lib/chibios", "lib/chibios-contrib", "lib/pico-sdk", "lib/printf"]
+}

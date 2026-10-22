@@ -1,0 +1,11 @@
+{
+  "name": "macro12-via-definition-validation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node validate.cjs"
+  },
+  "devDependencies": {
+    "@the-via/reader": "1.14.4"
+  }
+}
